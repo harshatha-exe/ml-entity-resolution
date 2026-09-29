@@ -1,7 +1,7 @@
 # Synthetic Entity Resolution Dataset
 
 - **Generated with seed**: 42
-- **Provenance**: 100% Synthetic data generated for entity resolution benchmark testing. Contains zero restricted or challenge data.
+- **Provenance**: 100% Synthetic data generated for entity resolution benchmark testing.
 - **Record counts**:
   - `s1.csv`: 100 rows
   - `s2.csv`: 58 rows

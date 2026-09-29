@@ -173,8 +173,8 @@ def generate_seed_data(data_dir: str = "data", seed: int = 42) -> None:
     street_names = ["Main St", "Market St", "Park Ave", "Broadway", "Fifth Ave", "Oak Rd", "Pine St", "Washington Blvd", "Lincoln Way", "Commercial Dr"]
     countries = ["USA", "UK", "CA", "DE", "FR", "AUS", "JPN"]
 
-    s2_counter = len(s2_rows) + 1
-    s3_counter = len(s3_rows) + 1
+    s2_counter = max([int(r["entity_id"].split("_")[1]) for r in s2_rows if "_" in r["entity_id"]] or [0]) + 1
+    s3_counter = max([int(r["entity_id"].split("_")[1]) for r in s3_rows if "_" in r["entity_id"]] or [0]) + 1
 
     for idx in range(13, 101):
         s1_id = f"S1_{idx:03d}"
@@ -194,7 +194,6 @@ def generate_seed_data(data_dir: str = "data", seed: int = 42) -> None:
             "country": country
         })
 
-        # 75% match chance
         if random.random() < 0.75:
             num_matches = random.choice([1, 1, 2])
             for _ in range(num_matches):
@@ -206,10 +205,8 @@ def generate_seed_data(data_dir: str = "data", seed: int = 42) -> None:
                     cand_id = f"S3_{s3_counter:03d}"
                     s3_counter += 1
 
-                # Variant name/address
                 alt_sfx = random.choice(suffixes)
                 cand_name = f"{p} {d} {alt_sfx}"
-                # Slight variation in address abbreviation
                 cand_addr = addr.replace(" St", " Street").replace(" Ave", " Avenue").replace(" Rd", " Road").replace(" Blvd", " Boulevard")
                 cand_country = country
 
@@ -221,9 +218,7 @@ def generate_seed_data(data_dir: str = "data", seed: int = 42) -> None:
 
                 links_rows.append({"s1_id": s1_id, "other_id": cand_id, "source": source})
         else:
-            # Singleton or decoy
             if random.random() < 0.5:
-                # Decoy
                 source = random.choice(["s2", "s3"])
                 cand_id = f"S2_{s2_counter:03d}" if source == "s2" else f"S3_{s3_counter:03d}"
                 if source == "s2":
@@ -237,22 +232,21 @@ def generate_seed_data(data_dir: str = "data", seed: int = 42) -> None:
                 else:
                     s3_rows.append(row)
 
-    # Convert to DataFrames and save
-    s1_df = pd.DataFrame(s1_rows)
-    s2_df = pd.DataFrame(s2_rows)
-    s3_df = pd.DataFrame(s3_rows)
-    links_df = pd.DataFrame(links_rows)
+    # Convert to DataFrames and drop duplicate entity_ids
+    s1_df = pd.DataFrame(s1_rows).drop_duplicates(subset=["entity_id"])
+    s2_df = pd.DataFrame(s2_rows).drop_duplicates(subset=["entity_id"])
+    s3_df = pd.DataFrame(s3_rows).drop_duplicates(subset=["entity_id"])
+    links_df = pd.DataFrame(links_rows).drop_duplicates(subset=["s1_id", "other_id"])
 
     s1_df.to_csv(os.path.join(data_dir, "s1.csv"), index=False)
     s2_df.to_csv(os.path.join(data_dir, "s2.csv"), index=False)
     s3_df.to_csv(os.path.join(data_dir, "s3.csv"), index=False)
     links_df.to_csv(os.path.join(data_dir, "links.csv"), index=False)
 
-    # Create data/README.md
     readme_content = f"""# Synthetic Entity Resolution Dataset
 
 - **Generated with seed**: {seed}
-- **Provenance**: 100% Synthetic data generated for entity resolution benchmark testing. Contains zero restricted or challenge data.
+- **Provenance**: 100% Synthetic data generated for entity resolution benchmark testing.
 - **Record counts**:
   - `s1.csv`: {len(s1_df)} rows
   - `s2.csv`: {len(s2_df)} rows
