@@ -1,20 +1,28 @@
 """
-Entity matching interface.
+ML-backed entity matching interface.
 
-Issue #1 implementation:
-- Reads the project CSV files.
-- Provides list_entities().
-- Provides get_matches(s1_id).
-- Uses a temporary rule-based scoring stub.
-
-The scoring implementation will be replaced/refined by the ML
-implementation in the later matching issue.
+Issue #5 implementation:
+- Loads S1/S2/S3 data.
+- Normalizes entity data.
+- Uses blocking to generate candidate pairs.
+- Builds pair features using the saved feature order.
+- Loads the trained model once.
+- Loads the saved validation threshold once.
+- Uses model.predict_proba() for scoring.
+- Returns ranked candidates and accepted IDs.
+- Preserves the Issue #1 public response structure.
 """
 
+from functools import lru_cache
 from pathlib import Path
+import json
 
+import joblib
 import pandas as pd
-from rapidfuzz.fuzz import ratio
+
+from ml.normalize import normalize_dataframe
+from ml.blocking import block_candidates_for_s1
+from ml.features import pair_features
 
 
 # ---------------------------------------------------------
@@ -23,10 +31,14 @@ from rapidfuzz.fuzz import ratio
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
+ML_DIR = PROJECT_ROOT / "ml"
 
 S1_FILE = DATA_DIR / "s1.csv"
 S2_FILE = DATA_DIR / "s2.csv"
 S3_FILE = DATA_DIR / "s3.csv"
+
+MODEL_FILE = ML_DIR / "model.joblib"
+METRICS_FILE = ML_DIR / "metrics.json"
 
 
 # ---------------------------------------------------------
@@ -42,14 +54,16 @@ ENTITY_COLUMNS = [
 
 
 # ---------------------------------------------------------
-# Data loading
+# Data loading helpers
 # ---------------------------------------------------------
 
 def _load_entity_file(path):
-    """Load and validate an entity CSV."""
+    """Load and validate one entity CSV."""
 
     if not path.exists():
-        raise FileNotFoundError(f"Dataset file not found: {path}")
+        raise FileNotFoundError(
+            f"Dataset file not found: {path}"
+        )
 
     df = pd.read_csv(path)
 
@@ -67,101 +81,151 @@ def _load_entity_file(path):
     return df[ENTITY_COLUMNS].copy()
 
 
-def _load_data():
-    """Load S1, S2 and S3."""
+def _load_normalized_data():
+    """
+    Load S1/S2/S3 and add normalized fields.
+
+    The original columns are retained so that the API can return
+    user-visible original text.
+    """
 
     s1 = _load_entity_file(S1_FILE)
     s2 = _load_entity_file(S2_FILE)
     s3 = _load_entity_file(S3_FILE)
 
-    return s1, s2, s3
+    s1 = normalize_dataframe(s1)
+    s2 = normalize_dataframe(s2)
+    s3 = normalize_dataframe(s3)
 
+    s2["source"] = "s2"
+    s3["source"] = "s3"
 
-# ---------------------------------------------------------
-# Text helpers
-# ---------------------------------------------------------
-
-def _clean_text(value):
-    """Basic text normalization for comparison."""
-
-    if pd.isna(value):
-        return ""
-
-    return str(value).strip().lower()
-
-
-def _similarity(value1, value2):
-    """Return normalized fuzzy similarity between 0 and 1."""
-
-    value1 = _clean_text(value1)
-    value2 = _clean_text(value2)
-
-    if not value1 or not value2:
-        return 0.0
-
-    return ratio(value1, value2) / 100.0
-
-
-# ---------------------------------------------------------
-# Feature calculation
-# ---------------------------------------------------------
-
-def _calculate_features(s1_row, candidate_row):
-    """Calculate the features required by the project contract."""
-
-    name1 = _clean_text(s1_row["business_name"])
-    name2 = _clean_text(candidate_row["business_name"])
-
-    address1 = _clean_text(s1_row["business_address"])
-    address2 = _clean_text(candidate_row["business_address"])
-
-    country1 = _clean_text(s1_row["country"])
-    country2 = _clean_text(candidate_row["country"])
-
-    name_sim = _similarity(name1, name2)
-    addr_sim = _similarity(address1, address2)
-
-    exact_name = int(
-        bool(name1) and name1 == name2
+    candidates = pd.concat(
+        [s2, s3],
+        ignore_index=True
     )
 
-    country_match = int(
-        bool(country1) and country1 == country2
-    )
-
-    len_diff = abs(len(name1) - len(name2))
-
-    return {
-        "name_sim": round(name_sim, 4),
-        "addr_sim": round(addr_sim, 4),
-        "exact_name": exact_name,
-        "country_match": country_match,
-        "len_diff": len_diff,
-    }
+    return s1, candidates
 
 
 # ---------------------------------------------------------
-# Temporary scoring
+# Model + configuration loading
 # ---------------------------------------------------------
 
-def _calculate_score(features):
+def _load_model():
     """
-    Temporary scoring logic.
+    Load the saved model artifact.
 
-    This is NOT the final ML model.
-
-    Person 2 will replace/refine this with the actual
-    model-based matching implementation.
+    The model artifact created by ml.train contains:
+        model
+        feature_names
+        model_type
+        val_f05
     """
 
-    score = (
-        0.50 * features["name_sim"]
-        + 0.30 * features["addr_sim"]
-        + 0.10 * features["exact_name"]
-        + 0.10 * features["country_match"]
-    )
+    if not MODEL_FILE.exists():
+        raise FileNotFoundError(
+            f"Model file not found: {MODEL_FILE}. "
+            f"Run 'python -m ml.train' first."
+        )
 
-    return round(score, 4)
+    artifact = joblib.load(MODEL_FILE)
+
+    if isinstance(artifact, dict):
+        if "model" not in artifact:
+            raise ValueError(
+                "model.joblib does not contain a 'model' entry."
+            )
+
+        model = artifact["model"]
+        feature_names = artifact.get("feature_names")
+
+    else:
+        model = artifact
+        feature_names = None
+
+    return model, feature_names
+
+
+def _load_metrics():
+    """
+    Load evaluation metrics and the selected threshold.
+    """
+
+    if not METRICS_FILE.exists():
+        raise FileNotFoundError(
+            f"Metrics file not found: {METRICS_FILE}. "
+            f"Run 'python -m ml.evaluate' first."
+        )
+
+    with open(METRICS_FILE, "r", encoding="utf-8") as file:
+        metrics = json.load(file)
+
+    if "threshold" not in metrics:
+        raise ValueError(
+            "metrics.json does not contain a threshold."
+        )
+
+    if "feature_names" not in metrics:
+        raise ValueError(
+            "metrics.json does not contain feature_names."
+        )
+
+    threshold = float(metrics["threshold"])
+    feature_names = metrics["feature_names"]
+
+    return threshold, feature_names
+
+
+# ---------------------------------------------------------
+# Cached runtime state
+# ---------------------------------------------------------
+
+@lru_cache(maxsize=1)
+def _load_runtime():
+    """
+    Load all runtime resources once per Python process.
+
+    Returns:
+        s1_df
+        candidates_df
+        model
+        feature_names
+        threshold
+    """
+
+    s1_df, candidates_df = _load_normalized_data()
+
+    model, model_feature_names = _load_model()
+
+    threshold, metrics_feature_names = _load_metrics()
+
+    # Prefer the feature order saved with the model artifact.
+    # Fall back to metrics.json if the artifact does not contain it.
+    if model_feature_names:
+        feature_names = list(model_feature_names)
+
+        # Ensure the evaluation artifact agrees with the model artifact.
+        if list(metrics_feature_names) != feature_names:
+            raise ValueError(
+                "Feature order mismatch between model.joblib "
+                "and metrics.json."
+            )
+    else:
+        feature_names = list(metrics_feature_names)
+
+    if not hasattr(model, "predict_proba"):
+        raise ValueError(
+            "The saved model does not support predict_proba()."
+        )
+
+    return (
+        s1_df,
+        candidates_df,
+        model,
+        feature_names,
+        threshold,
+    )
 
 
 # ---------------------------------------------------------
@@ -173,6 +237,7 @@ def list_entities():
     Return original S1 IDs and business names.
 
     Contract:
+
     [
         {
             "entity_id": "...",
@@ -181,9 +246,9 @@ def list_entities():
     ]
     """
 
-    s1, _, _ = _load_data()
+    s1_df, _, _, _, _ = _load_runtime()
 
-    return s1[
+    return s1_df[
         ["entity_id", "business_name"]
     ].to_dict(orient="records")
 
@@ -194,7 +259,7 @@ def list_entities():
 
 def get_matches(s1_id):
     """
-    Return ranked candidate matches for an S1 entity.
+    Return ranked ML-based candidate matches for an S1 entity.
 
     Contract:
 
@@ -229,71 +294,150 @@ def get_matches(s1_id):
 
         "accepted_ids": [...]
     }
-
-    NOTE:
-    The threshold here is temporary and must NOT be treated
-    as the final model threshold.
     """
 
-    s1, s2, s3 = _load_data()
+    (
+        s1_df,
+        candidates_df,
+        model,
+        feature_names,
+        threshold,
+    ) = _load_runtime()
 
-    matches = s1[
-        s1["entity_id"].astype(str) == str(s1_id)
+    # -----------------------------------------------------
+    # Find S1 entity
+    # -----------------------------------------------------
+
+    matches = s1_df[
+        s1_df["entity_id"].astype(str) == str(s1_id)
     ]
 
     if matches.empty:
-        raise ValueError(f"Unknown S1 ID: {s1_id}")
+        raise ValueError(
+            f"Unknown S1 ID: {s1_id}"
+        )
 
     s1_row = matches.iloc[0]
 
-    candidates = []
+    # -----------------------------------------------------
+    # Blocking
+    # -----------------------------------------------------
 
-    # Process S2 and S3 separately so the source is preserved.
-    for source, df in [("s2", s2), ("s3", s3)]:
+    blocked_candidates = block_candidates_for_s1(
+        s1_row,
+        candidates_df,
+        max_candidates=20
+    )
 
-        for _, candidate_row in df.iterrows():
+    # -----------------------------------------------------
+    # Zero-candidate behavior
+    # -----------------------------------------------------
 
-            features = _calculate_features(
-                s1_row,
-                candidate_row
-            )
+    if blocked_candidates.empty:
+        return {
+            "s1": {
+                "entity_id": s1_row["entity_id"],
+                "business_name": s1_row["business_name"],
+                "business_address": s1_row["business_address"],
+                "country": s1_row["country"],
+            },
+            "threshold": threshold,
+            "candidates": [],
+            "accepted_ids": [],
+        }
 
-            score = _calculate_score(features)
+    # -----------------------------------------------------
+    # Build pair features
+    # -----------------------------------------------------
 
-            candidate = {
-                "candidate_id": candidate_row["entity_id"],
-                "source": source,
+    feature_rows = []
+    candidate_records = []
+
+    for _, candidate_row in blocked_candidates.iterrows():
+
+        features = pair_features(
+            s1_row,
+            candidate_row
+        )
+
+        feature_rows.append(features)
+
+        candidate_records.append(
+            {
+                "candidate_id": candidate_row["candidate_id"],
+                "source": candidate_row["source"],
                 "business_name": candidate_row["business_name"],
                 "business_address": candidate_row["business_address"],
                 "country": candidate_row["country"],
-                "score": score,
-                "accepted": False,
                 "features": features,
             }
+        )
 
-            candidates.append(candidate)
+    # -----------------------------------------------------
+    # DataFrame in saved feature order
+    # -----------------------------------------------------
 
-    # Temporary threshold.
-    # DO NOT treat 0.62 as the final selected threshold.
-    threshold = 0.62
+    feature_df = pd.DataFrame(feature_rows)
 
-    # Rank highest score first.
+    # Ensure the exact order expected by the trained model.
+    feature_df = feature_df[feature_names]
+
+    # -----------------------------------------------------
+    # ML prediction
+    # -----------------------------------------------------
+
+    probabilities = model.predict_proba(
+        feature_df
+    )[:, 1]
+
+    # -----------------------------------------------------
+    # Attach predictions
+    # -----------------------------------------------------
+
+    candidates = []
+
+    for candidate, score in zip(
+        candidate_records,
+        probabilities
+    ):
+
+        score = float(score)
+
+        candidate_output = {
+            "candidate_id": candidate["candidate_id"],
+            "source": candidate["source"],
+            "business_name": candidate["business_name"],
+            "business_address": candidate["business_address"],
+            "country": candidate["country"],
+            "score": round(score, 4),
+            "accepted": bool(score >= threshold),
+            "features": candidate["features"],
+        }
+
+        candidates.append(candidate_output)
+
+    # -----------------------------------------------------
+    # Rank highest score first
+    # -----------------------------------------------------
+
     candidates.sort(
         key=lambda candidate: candidate["score"],
         reverse=True
     )
 
-    # Temporary acceptance rule.
-    for candidate in candidates:
-        candidate["accepted"] = (
-            candidate["score"] >= threshold
-        )
+    # -----------------------------------------------------
+    # Accepted IDs
+    # -----------------------------------------------------
 
     accepted_ids = [
         candidate["candidate_id"]
         for candidate in candidates
         if candidate["accepted"]
     ]
+
+    # -----------------------------------------------------
+    # Final Issue #1-compatible response
+    # -----------------------------------------------------
 
     return {
         "s1": {
