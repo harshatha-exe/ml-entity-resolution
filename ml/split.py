@@ -1,3 +1,4 @@
+import os
 import random
 from typing import Dict, List, Tuple
 import pandas as pd
@@ -6,29 +7,44 @@ def split_s1_ids(
     s1_ids: List[str],
     test_ratio: float = 0.20,
     val_ratio: float = 0.20,
-    seed: int = 42
+    seed: int = 42,
+    data_dir: str = "data"
 ) -> Tuple[Dict[str, str], List[str], List[str], List[str]]:
     """
-    Splits S1 IDs deterministically into train, val, and test splits.
-    Returns:
-        split_map: dict mapping s1_id -> split_name ('train', 'val', or 'test')
-        train_ids: list of S1 IDs in train
-        val_ids: list of S1 IDs in val
-        test_ids: list of S1 IDs in test
+    Splits S1 IDs deterministically into train, val, and test splits with stratification
+    on whether S1 entities have true links, ensuring all splits receive positive and negative pairs.
     """
     sorted_ids = sorted(list(set(s1_ids)))
+    links_file = os.path.join(data_dir, "links.csv")
+
+    if os.path.exists(links_file):
+        links_df = pd.read_csv(links_file)
+        linked_set = set(links_df["s1_id"])
+    else:
+        linked_set = set()
+
+    linked_ids = [sid for sid in sorted_ids if sid in linked_set]
+    unlinked_ids = [sid for sid in sorted_ids if sid not in linked_set]
+
     rng = random.Random(seed)
-    shuffled_ids = sorted_ids.copy()
-    rng.shuffle(shuffled_ids)
+    rng.shuffle(linked_ids)
+    rng.shuffle(unlinked_ids)
 
-    n_total = len(shuffled_ids)
-    n_test = int(round(n_total * test_ratio))
-    n_val = int(round(n_total * val_ratio))
-    n_train = n_total - n_test - n_val
+    def split_group(group: List[str]):
+        n_tot = len(group)
+        n_te = int(round(n_tot * test_ratio))
+        n_va = int(round(n_tot * val_ratio))
+        te = group[:n_te]
+        va = group[n_te:n_te + n_va]
+        tr = group[n_te + n_va:]
+        return tr, va, te
 
-    test_ids = sorted(shuffled_ids[:n_test])
-    val_ids = sorted(shuffled_ids[n_test:n_test + n_val])
-    train_ids = sorted(shuffled_ids[n_test + n_val:])
+    tr_linked, va_linked, te_linked = split_group(linked_ids)
+    tr_unlinked, va_unlinked, te_unlinked = split_group(unlinked_ids)
+
+    train_ids = sorted(tr_linked + tr_unlinked)
+    val_ids = sorted(va_linked + va_unlinked)
+    test_ids = sorted(te_linked + te_unlinked)
 
     split_map = {}
     for sid in train_ids:

@@ -1,411 +1,570 @@
 candidate_id,business_name,business_address,country,norm_name,suffix_free_name,norm_address,norm_country,source,s1_id
 S2_001,Acme Global Solutions Inc.,123 Innovation Way Ste 400,USA,acme global solutions inc,acme global solutions,123 innovation way suite 400,united states,s2,S1_001
 S3_001,Acme Global Solutions LLC,123 Innovation Way,USA,acme global solutions llc,acme global solutions,123 innovation way,united states,s3,S1_001
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_003
-S2_031,Beacon Ventures Co,2679 Main Street,FR,beacon ventures co,beacon ventures,2679 main street,france,s2,S1_003
-S3_056,Beacon Ventures Co,2606 Pine Street,UK,beacon ventures co,beacon ventures,2606 pine street,united kingdom,s3,S1_003
-S2_004,Starlite Retailers,12 Star Avenue,USA,starlite retailers,starlite retailers,12 star avenue,united states,s2,S1_004
-S3_005,Vortex Technologies Group,50 Tech Park,UK,vortex technologies group,vortex technologies,50 tech park,united kingdom,s3,S1_005
-S2_006,Summit Health Systems,300 Doctors Drive Apartment 2B,USA,summit health systems,summit health systems,300 doctors drive apartment 2b,united states,s2,S1_006
-S3_007,Global Energy Partners,10 Oil Plaza,Canada,global energy partners,global energy partners,10 oil plaza,canada,s3,S1_007
-S2_001,Acme Global Solutions Inc.,123 Innovation Way Ste 400,USA,acme global solutions inc,acme global solutions,123 innovation way suite 400,united states,s2,S1_007
-S3_001,Acme Global Solutions LLC,123 Innovation Way,USA,acme global solutions llc,acme global solutions,123 innovation way,united states,s3,S1_007
-S2_008,Pacific Financial,500 Wall St,USA,pacific financial,pacific financial,500 wall street,united states,s2,S1_008
-S3_012,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_012
-S2_016,Beta Solutions Holdings,6025 Commercial Dr,UK,beta solutions holdings,beta solutions,6025 commercial drive,united kingdom,s2,S1_012
-S2_024,Beta Tech Group,5513 Market Street,FR,beta tech group,beta tech,5513 market street,france,s2,S1_012
-S2_026,Beta Group Group,5904 Pine Street,DE,beta group group,beta,5904 pine street,germany,s2,S1_012
-S2_027,Beta Group Inc.,5904 Pine Street,DE,beta group inc,beta,5904 pine street,germany,s2,S1_012
-S3_027,Beta Tech LLC,5513 Market Street,FR,beta tech llc,beta tech,5513 market street,france,s3,S1_012
-S3_058,Beta Energy Inc.,4095 Washington Boulevard,FR,beta energy inc,beta energy,4095 washington boulevard,france,s3,S1_012
-S2_013,Omni Tech Group,1635 Broadway,UK,omni tech group,omni tech,1635 broadway,united kingdom,s2,S1_014
-S2_019,Omni Retail LLC,2366 Lincoln Way,DE,omni retail llc,omni retail,2366 lincoln way,germany,s2,S1_014
-S2_028,Omni Labs Ltd,1890 Broadway,UK,omni labs ltd,omni labs,1890 broadway,united kingdom,s2,S1_014
-S2_045,Omni Group Holdings,3285 Pine Street,DE,omni group holdings,omni,3285 pine street,germany,s2,S1_014
-S2_051,Omni Media Holdings,6471 Oak Road,AUS,omni media holdings,omni media,6471 oak road,australia,s2,S1_014
-S3_013,Omni Retail Inc.,2647 Broadway,JPN,omni retail inc,omni retail,2647 broadway,japan,s3,S1_014
-S2_014,Terra Labs Group,6973 Broadway,DE,terra labs group,terra labs,6973 broadway,germany,s2,S1_015
-S2_012,Terra Logistics Co,4606 Broadway,UK,terra logistics co,terra logistics,4606 broadway,united kingdom,s2,S1_015
-S2_021,Terra Media Co,8935 Broadway,AUS,terra media co,terra media,8935 broadway,australia,s2,S1_015
-S2_034,Terra Group Group,4425 Lincoln Way,DE,terra group group,terra,4425 lincoln way,germany,s2,S1_015
-S2_039,Terra Ventures Group,7811 Broadway,UK,terra ventures group,terra ventures,7811 broadway,united kingdom,s2,S1_015
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_015
-S3_021,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_015
-S3_022,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_015
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_015
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_015
-S3_053,Terra Industries Group,2083 Commercial Dr,JPN,terra industries group,terra industries,2083 commercial drive,japan,s3,S1_015
-S3_054,Terra Industries Inc.,2083 Commercial Dr,JPN,terra industries inc,terra industries,2083 commercial drive,japan,s3,S1_015
-S2_015,Nova Ventures Ltd,9991 Fifth Avenue,JPN,nova ventures ltd,nova ventures,9991 fifth avenue,japan,s2,S1_017
-S2_023,Nova Tech LLC,9175 Broadway,FR,nova tech llc,nova tech,9175 broadway,france,s2,S1_017
-S2_016,Beta Solutions Holdings,6025 Commercial Dr,UK,beta solutions holdings,beta solutions,6025 commercial drive,united kingdom,s2,S1_018
-S2_024,Beta Tech Group,5513 Market Street,FR,beta tech group,beta tech,5513 market street,france,s2,S1_018
-S2_026,Beta Group Group,5904 Pine Street,DE,beta group group,beta,5904 pine street,germany,s2,S1_018
-S2_027,Beta Group Inc.,5904 Pine Street,DE,beta group inc,beta,5904 pine street,germany,s2,S1_018
-S3_012,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_018
-S3_027,Beta Tech LLC,5513 Market Street,FR,beta tech llc,beta tech,5513 market street,france,s3,S1_018
-S3_058,Beta Energy Inc.,4095 Washington Boulevard,FR,beta energy inc,beta energy,4095 washington boulevard,france,s3,S1_018
-S3_014,Gamma Logistics LLC,3914 Market Street,DE,gamma logistics llc,gamma logistics,3914 market street,germany,s3,S1_019
-S3_015,Gamma Logistics Corp,3914 Market Street,DE,gamma logistics corp,gamma logistics,3914 market street,germany,s3,S1_019
-S2_018,Gamma Group Holdings,9225 Broadway,AUS,gamma group holdings,gamma,9225 broadway,australia,s2,S1_019
-S2_022,Gamma Systems Inc.,6218 Washington Boulevard,FR,gamma systems inc,gamma systems,6218 washington boulevard,france,s2,S1_019
-S2_035,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_019
-S2_038,Gamma Retail Corp,753 Oak Road,UK,gamma retail corp,gamma retail,753 oak road,united kingdom,s2,S1_019
-S2_040,Gamma Ventures Corp,4673 Oak Road,AUS,gamma ventures corp,gamma ventures,4673 oak road,australia,s2,S1_019
-S2_044,Gamma Financial Ltd,3362 Park Avenue,USA,gamma financial ltd,gamma financial,3362 park avenue,united states,s2,S1_019
-S2_049,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s2,S1_019
-S2_050,Gamma Capital Corp,6965 Lincoln Way,AUS,gamma capital corp,gamma capital,6965 lincoln way,australia,s2,S1_019
-S3_033,Gamma Retail Co,753 Oak Road,UK,gamma retail co,gamma retail,753 oak road,united kingdom,s3,S1_019
-S3_037,Gamma Ventures Inc.,4673 Oak Road,AUS,gamma ventures inc,gamma ventures,4673 oak road,australia,s3,S1_019
-S3_061,Gamma Financial Ltd,4086 Fifth Avenue,AUS,gamma financial ltd,gamma financial,4086 fifth avenue,australia,s3,S1_019
-S2_017,Echo Group LLC,1269 Commercial Dr,AUS,echo group llc,echo,1269 commercial drive,australia,s2,S1_020
-S2_054,Echo Group LLC,759 Main Street,UK,echo group llc,echo,759 main street,united kingdom,s2,S1_020
-S3_016,Echo Group Ltd,1269 Commercial Dr,AUS,echo group ltd,echo,1269 commercial drive,australia,s3,S1_020
-S2_018,Gamma Group Holdings,9225 Broadway,AUS,gamma group holdings,gamma,9225 broadway,australia,s2,S1_021
-S2_022,Gamma Systems Inc.,6218 Washington Boulevard,FR,gamma systems inc,gamma systems,6218 washington boulevard,france,s2,S1_021
-S2_035,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_021
-S2_038,Gamma Retail Corp,753 Oak Road,UK,gamma retail corp,gamma retail,753 oak road,united kingdom,s2,S1_021
-S2_040,Gamma Ventures Corp,4673 Oak Road,AUS,gamma ventures corp,gamma ventures,4673 oak road,australia,s2,S1_021
-S2_044,Gamma Financial Ltd,3362 Park Avenue,USA,gamma financial ltd,gamma financial,3362 park avenue,united states,s2,S1_021
-S2_049,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s2,S1_021
-S2_050,Gamma Capital Corp,6965 Lincoln Way,AUS,gamma capital corp,gamma capital,6965 lincoln way,australia,s2,S1_021
-S3_014,Gamma Logistics LLC,3914 Market Street,DE,gamma logistics llc,gamma logistics,3914 market street,germany,s3,S1_021
-S3_015,Gamma Logistics Corp,3914 Market Street,DE,gamma logistics corp,gamma logistics,3914 market street,germany,s3,S1_021
-S3_033,Gamma Retail Co,753 Oak Road,UK,gamma retail co,gamma retail,753 oak road,united kingdom,s3,S1_021
-S3_037,Gamma Ventures Inc.,4673 Oak Road,AUS,gamma ventures inc,gamma ventures,4673 oak road,australia,s3,S1_021
-S3_061,Gamma Financial Ltd,4086 Fifth Avenue,AUS,gamma financial ltd,gamma financial,4086 fifth avenue,australia,s3,S1_021
-S3_019,Beacon Group Group,2440 Fifth Avenue,UK,beacon group group,beacon,2440 fifth avenue,united kingdom,s3,S1_023
-S3_020,Beacon Group Co,2440 Fifth Avenue,UK,beacon group co,beacon,2440 fifth avenue,united kingdom,s3,S1_023
-S2_025,Beacon Industries Inc.,7844 Broadway,JPN,beacon industries inc,beacon industries,7844 broadway,japan,s2,S1_023
-S2_031,Beacon Ventures Co,2679 Main Street,FR,beacon ventures co,beacon ventures,2679 main street,france,s2,S1_023
-S2_036,Beacon Labs Ltd,9038 Main Street,JPN,beacon labs ltd,beacon labs,9038 main street,japan,s2,S1_023
-S2_037,Beacon Labs Inc.,9038 Main Street,JPN,beacon labs inc,beacon labs,9038 main street,japan,s2,S1_023
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_023
-S2_046,Beacon Media Co,7877 Washington Blvd,CA,beacon media co,beacon media,7877 washington boulevard,canada,s2,S1_023
-S2_056,Beacon Industries LLC,4626 Lincoln Way,USA,beacon industries llc,beacon industries,4626 lincoln way,united states,s2,S1_023
-S3_032,Beacon Logistics LLC,9164 Park Avenue,CA,beacon logistics llc,beacon logistics,9164 park avenue,canada,s3,S1_023
-S3_039,Beacon Industries Inc.,4273 Main Street,AUS,beacon industries inc,beacon industries,4273 main street,australia,s3,S1_023
-S3_056,Beacon Ventures Co,2606 Pine Street,UK,beacon ventures co,beacon ventures,2606 pine street,united kingdom,s3,S1_023
-S3_057,Beacon Ventures Ltd,2606 Pine Street,UK,beacon ventures ltd,beacon ventures,2606 pine street,united kingdom,s3,S1_023
-S2_019,Omni Retail LLC,2366 Lincoln Way,DE,omni retail llc,omni retail,2366 lincoln way,germany,s2,S1_024
-S3_013,Omni Retail Inc.,2647 Broadway,JPN,omni retail inc,omni retail,2647 broadway,japan,s3,S1_024
-S2_013,Omni Tech Group,1635 Broadway,UK,omni tech group,omni tech,1635 broadway,united kingdom,s2,S1_024
-S2_028,Omni Labs Ltd,1890 Broadway,UK,omni labs ltd,omni labs,1890 broadway,united kingdom,s2,S1_024
-S2_045,Omni Group Holdings,3285 Pine Street,DE,omni group holdings,omni,3285 pine street,germany,s2,S1_024
-S2_051,Omni Media Holdings,6471 Oak Road,AUS,omni media holdings,omni media,6471 oak road,australia,s2,S1_024
-S3_021,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_025
-S3_022,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_025
-S2_012,Terra Logistics Co,4606 Broadway,UK,terra logistics co,terra logistics,4606 broadway,united kingdom,s2,S1_025
-S2_014,Terra Labs Group,6973 Broadway,DE,terra labs group,terra labs,6973 broadway,germany,s2,S1_025
-S2_021,Terra Media Co,8935 Broadway,AUS,terra media co,terra media,8935 broadway,australia,s2,S1_025
-S2_034,Terra Group Group,4425 Lincoln Way,DE,terra group group,terra,4425 lincoln way,germany,s2,S1_025
-S2_039,Terra Ventures Group,7811 Broadway,UK,terra ventures group,terra ventures,7811 broadway,united kingdom,s2,S1_025
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_025
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_025
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_025
-S3_053,Terra Industries Group,2083 Commercial Dr,JPN,terra industries group,terra industries,2083 commercial drive,japan,s3,S1_025
-S3_054,Terra Industries Inc.,2083 Commercial Dr,JPN,terra industries inc,terra industries,2083 commercial drive,japan,s3,S1_025
-S2_060,Atlas Tech Corp,4758 Washington Boulevard,DE,atlas tech corp,atlas tech,4758 washington boulevard,germany,s2,S1_026
-S3_023,Atlas Tech Inc.,1976 Lincoln Way,JPN,atlas tech inc,atlas tech,1976 lincoln way,japan,s3,S1_026
-S3_024,Atlas Tech Ltd,1976 Lincoln Way,JPN,atlas tech ltd,atlas tech,1976 lincoln way,japan,s3,S1_026
-S2_012,Terra Logistics Co,4606 Broadway,UK,terra logistics co,terra logistics,4606 broadway,united kingdom,s2,S1_028
-S2_014,Terra Labs Group,6973 Broadway,DE,terra labs group,terra labs,6973 broadway,germany,s2,S1_028
-S2_021,Terra Media Co,8935 Broadway,AUS,terra media co,terra media,8935 broadway,australia,s2,S1_028
-S2_034,Terra Group Group,4425 Lincoln Way,DE,terra group group,terra,4425 lincoln way,germany,s2,S1_028
-S2_039,Terra Ventures Group,7811 Broadway,UK,terra ventures group,terra ventures,7811 broadway,united kingdom,s2,S1_028
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_028
-S3_021,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_028
-S3_022,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_028
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_028
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_028
-S3_053,Terra Industries Group,2083 Commercial Dr,JPN,terra industries group,terra industries,2083 commercial drive,japan,s3,S1_028
-S3_054,Terra Industries Inc.,2083 Commercial Dr,JPN,terra industries inc,terra industries,2083 commercial drive,japan,s3,S1_028
-S3_026,Zenith Solutions LLC,9913 Oak Road,DE,zenith solutions llc,zenith solutions,9913 oak road,germany,s3,S1_029
-S2_053,Zenith Systems Corp,7006 Fifth Avenue,JPN,zenith systems corp,zenith systems,7006 fifth avenue,japan,s2,S1_029
-S3_045,Zenith Financial Inc.,4643 Lincoln Way,DE,zenith financial inc,zenith financial,4643 lincoln way,germany,s3,S1_029
-S2_020,Alpha Financial LLC,1390 Market Street,AUS,alpha financial llc,alpha financial,1390 market street,australia,s2,S1_030
-S2_011,Alpha Biotech LLC,80 Science Road,USA,alpha biotech llc,alpha biotech,80 science road,united states,s2,S1_030
-S2_030,Alpha Systems Corp,7554 Fifth Avenue,DE,alpha systems corp,alpha systems,7554 fifth avenue,germany,s2,S1_030
-S3_017,Alpha Capital LLC,6672 Fifth Avenue,USA,alpha capital llc,alpha capital,6672 fifth avenue,united states,s3,S1_030
-S3_018,Alpha Capital Ltd,6672 Fifth Avenue,USA,alpha capital ltd,alpha capital,6672 fifth avenue,united states,s3,S1_030
-S3_028,Alpha Systems LLC,7554 Fifth Avenue,DE,alpha systems llc,alpha systems,7554 fifth avenue,germany,s3,S1_030
-S2_022,Gamma Systems Inc.,6218 Washington Boulevard,FR,gamma systems inc,gamma systems,6218 washington boulevard,france,s2,S1_032
-S2_018,Gamma Group Holdings,9225 Broadway,AUS,gamma group holdings,gamma,9225 broadway,australia,s2,S1_032
-S2_035,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_032
-S2_038,Gamma Retail Corp,753 Oak Road,UK,gamma retail corp,gamma retail,753 oak road,united kingdom,s2,S1_032
-S2_040,Gamma Ventures Corp,4673 Oak Road,AUS,gamma ventures corp,gamma ventures,4673 oak road,australia,s2,S1_032
-S2_044,Gamma Financial Ltd,3362 Park Avenue,USA,gamma financial ltd,gamma financial,3362 park avenue,united states,s2,S1_032
-S2_049,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s2,S1_032
-S2_050,Gamma Capital Corp,6965 Lincoln Way,AUS,gamma capital corp,gamma capital,6965 lincoln way,australia,s2,S1_032
-S3_014,Gamma Logistics LLC,3914 Market Street,DE,gamma logistics llc,gamma logistics,3914 market street,germany,s3,S1_032
-S3_015,Gamma Logistics Corp,3914 Market Street,DE,gamma logistics corp,gamma logistics,3914 market street,germany,s3,S1_032
-S3_033,Gamma Retail Co,753 Oak Road,UK,gamma retail co,gamma retail,753 oak road,united kingdom,s3,S1_032
-S3_037,Gamma Ventures Inc.,4673 Oak Road,AUS,gamma ventures inc,gamma ventures,4673 oak road,australia,s3,S1_032
-S3_061,Gamma Financial Ltd,4086 Fifth Avenue,AUS,gamma financial ltd,gamma financial,4086 fifth avenue,australia,s3,S1_032
-S2_025,Beacon Industries Inc.,7844 Broadway,JPN,beacon industries inc,beacon industries,7844 broadway,japan,s2,S1_035
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_035
-S2_056,Beacon Industries LLC,4626 Lincoln Way,USA,beacon industries llc,beacon industries,4626 lincoln way,united states,s2,S1_035
-S3_039,Beacon Industries Inc.,4273 Main Street,AUS,beacon industries inc,beacon industries,4273 main street,australia,s3,S1_035
-S2_026,Beta Group Group,5904 Pine Street,DE,beta group group,beta,5904 pine street,germany,s2,S1_036
-S2_027,Beta Group Inc.,5904 Pine Street,DE,beta group inc,beta,5904 pine street,germany,s2,S1_036
-S2_016,Beta Solutions Holdings,6025 Commercial Dr,UK,beta solutions holdings,beta solutions,6025 commercial drive,united kingdom,s2,S1_036
-S2_024,Beta Tech Group,5513 Market Street,FR,beta tech group,beta tech,5513 market street,france,s2,S1_036
-S3_012,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_036
-S3_027,Beta Tech LLC,5513 Market Street,FR,beta tech llc,beta tech,5513 market street,france,s3,S1_036
-S3_058,Beta Energy Inc.,4095 Washington Boulevard,FR,beta energy inc,beta energy,4095 washington boulevard,france,s3,S1_036
-S2_028,Omni Labs Ltd,1890 Broadway,UK,omni labs ltd,omni labs,1890 broadway,united kingdom,s2,S1_037
-S2_013,Omni Tech Group,1635 Broadway,UK,omni tech group,omni tech,1635 broadway,united kingdom,s2,S1_037
-S2_019,Omni Retail LLC,2366 Lincoln Way,DE,omni retail llc,omni retail,2366 lincoln way,germany,s2,S1_037
-S2_045,Omni Group Holdings,3285 Pine Street,DE,omni group holdings,omni,3285 pine street,germany,s2,S1_037
-S2_051,Omni Media Holdings,6471 Oak Road,AUS,omni media holdings,omni media,6471 oak road,australia,s2,S1_037
-S3_013,Omni Retail Inc.,2647 Broadway,JPN,omni retail inc,omni retail,2647 broadway,japan,s3,S1_037
-S2_024,Beta Tech Group,5513 Market Street,FR,beta tech group,beta tech,5513 market street,france,s2,S1_039
-S3_027,Beta Tech LLC,5513 Market Street,FR,beta tech llc,beta tech,5513 market street,france,s3,S1_039
-S2_016,Beta Solutions Holdings,6025 Commercial Dr,UK,beta solutions holdings,beta solutions,6025 commercial drive,united kingdom,s2,S1_039
-S2_026,Beta Group Group,5904 Pine Street,DE,beta group group,beta,5904 pine street,germany,s2,S1_039
-S2_027,Beta Group Inc.,5904 Pine Street,DE,beta group inc,beta,5904 pine street,germany,s2,S1_039
-S3_012,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_039
-S3_058,Beta Energy Inc.,4095 Washington Boulevard,FR,beta energy inc,beta energy,4095 washington boulevard,france,s3,S1_039
-S2_029,Delta Systems Ltd,7986 Broadway,JPN,delta systems ltd,delta systems,7986 broadway,japan,s2,S1_040
-S2_041,Delta Industries Ltd,726 Market Street,FR,delta industries ltd,delta industries,726 market street,france,s2,S1_040
-S3_025,Delta Media Holdings,4415 Lincoln Way,JPN,delta media holdings,delta media,4415 lincoln way,japan,s3,S1_040
-S3_038,Delta Industries Ltd,726 Market Street,FR,delta industries ltd,delta industries,726 market street,france,s3,S1_040
-S3_046,Delta Labs Inc.,1152 Pine Street,DE,delta labs inc,delta labs,1152 pine street,germany,s3,S1_040
-S3_050,Delta Media LLC,1974 Commercial Dr,UK,delta media llc,delta media,1974 commercial drive,united kingdom,s3,S1_040
-S2_030,Alpha Systems Corp,7554 Fifth Avenue,DE,alpha systems corp,alpha systems,7554 fifth avenue,germany,s2,S1_041
-S3_028,Alpha Systems LLC,7554 Fifth Avenue,DE,alpha systems llc,alpha systems,7554 fifth avenue,germany,s3,S1_041
-S2_011,Alpha Biotech LLC,80 Science Road,USA,alpha biotech llc,alpha biotech,80 science road,united states,s2,S1_041
-S2_020,Alpha Financial LLC,1390 Market Street,AUS,alpha financial llc,alpha financial,1390 market street,australia,s2,S1_041
-S3_017,Alpha Capital LLC,6672 Fifth Avenue,USA,alpha capital llc,alpha capital,6672 fifth avenue,united states,s3,S1_041
-S3_018,Alpha Capital Ltd,6672 Fifth Avenue,USA,alpha capital ltd,alpha capital,6672 fifth avenue,united states,s3,S1_041
-S2_026,Beta Group Group,5904 Pine Street,DE,beta group group,beta,5904 pine street,germany,s2,S1_044
-S2_027,Beta Group Inc.,5904 Pine Street,DE,beta group inc,beta,5904 pine street,germany,s2,S1_044
-S2_016,Beta Solutions Holdings,6025 Commercial Dr,UK,beta solutions holdings,beta solutions,6025 commercial drive,united kingdom,s2,S1_044
-S2_024,Beta Tech Group,5513 Market Street,FR,beta tech group,beta tech,5513 market street,france,s2,S1_044
-S3_012,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_044
-S3_027,Beta Tech LLC,5513 Market Street,FR,beta tech llc,beta tech,5513 market street,france,s3,S1_044
-S3_058,Beta Energy Inc.,4095 Washington Boulevard,FR,beta energy inc,beta energy,4095 washington boulevard,france,s3,S1_044
-S2_025,Beacon Industries Inc.,7844 Broadway,JPN,beacon industries inc,beacon industries,7844 broadway,japan,s2,S1_047
-S2_031,Beacon Ventures Co,2679 Main Street,FR,beacon ventures co,beacon ventures,2679 main street,france,s2,S1_047
-S2_036,Beacon Labs Ltd,9038 Main Street,JPN,beacon labs ltd,beacon labs,9038 main street,japan,s2,S1_047
-S2_037,Beacon Labs Inc.,9038 Main Street,JPN,beacon labs inc,beacon labs,9038 main street,japan,s2,S1_047
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_047
-S2_046,Beacon Media Co,7877 Washington Blvd,CA,beacon media co,beacon media,7877 washington boulevard,canada,s2,S1_047
-S2_056,Beacon Industries LLC,4626 Lincoln Way,USA,beacon industries llc,beacon industries,4626 lincoln way,united states,s2,S1_047
-S3_019,Beacon Group Group,2440 Fifth Avenue,UK,beacon group group,beacon,2440 fifth avenue,united kingdom,s3,S1_047
-S3_020,Beacon Group Co,2440 Fifth Avenue,UK,beacon group co,beacon,2440 fifth avenue,united kingdom,s3,S1_047
-S3_032,Beacon Logistics LLC,9164 Park Avenue,CA,beacon logistics llc,beacon logistics,9164 park avenue,canada,s3,S1_047
-S3_039,Beacon Industries Inc.,4273 Main Street,AUS,beacon industries inc,beacon industries,4273 main street,australia,s3,S1_047
-S3_056,Beacon Ventures Co,2606 Pine Street,UK,beacon ventures co,beacon ventures,2606 pine street,united kingdom,s3,S1_047
-S3_057,Beacon Ventures Ltd,2606 Pine Street,UK,beacon ventures ltd,beacon ventures,2606 pine street,united kingdom,s3,S1_047
-S2_034,Terra Group Group,4425 Lincoln Way,DE,terra group group,terra,4425 lincoln way,germany,s2,S1_052
-S2_012,Terra Logistics Co,4606 Broadway,UK,terra logistics co,terra logistics,4606 broadway,united kingdom,s2,S1_052
-S2_014,Terra Labs Group,6973 Broadway,DE,terra labs group,terra labs,6973 broadway,germany,s2,S1_052
-S2_021,Terra Media Co,8935 Broadway,AUS,terra media co,terra media,8935 broadway,australia,s2,S1_052
-S2_039,Terra Ventures Group,7811 Broadway,UK,terra ventures group,terra ventures,7811 broadway,united kingdom,s2,S1_052
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_052
-S3_021,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_052
-S3_022,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_052
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_052
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_052
-S3_053,Terra Industries Group,2083 Commercial Dr,JPN,terra industries group,terra industries,2083 commercial drive,japan,s3,S1_052
-S3_054,Terra Industries Inc.,2083 Commercial Dr,JPN,terra industries inc,terra industries,2083 commercial drive,japan,s3,S1_052
-S2_035,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_054
-S2_018,Gamma Group Holdings,9225 Broadway,AUS,gamma group holdings,gamma,9225 broadway,australia,s2,S1_054
-S2_022,Gamma Systems Inc.,6218 Washington Boulevard,FR,gamma systems inc,gamma systems,6218 washington boulevard,france,s2,S1_054
-S2_038,Gamma Retail Corp,753 Oak Road,UK,gamma retail corp,gamma retail,753 oak road,united kingdom,s2,S1_054
-S2_040,Gamma Ventures Corp,4673 Oak Road,AUS,gamma ventures corp,gamma ventures,4673 oak road,australia,s2,S1_054
-S2_044,Gamma Financial Ltd,3362 Park Avenue,USA,gamma financial ltd,gamma financial,3362 park avenue,united states,s2,S1_054
-S2_049,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s2,S1_054
-S2_050,Gamma Capital Corp,6965 Lincoln Way,AUS,gamma capital corp,gamma capital,6965 lincoln way,australia,s2,S1_054
-S3_014,Gamma Logistics LLC,3914 Market Street,DE,gamma logistics llc,gamma logistics,3914 market street,germany,s3,S1_054
-S3_015,Gamma Logistics Corp,3914 Market Street,DE,gamma logistics corp,gamma logistics,3914 market street,germany,s3,S1_054
-S3_033,Gamma Retail Co,753 Oak Road,UK,gamma retail co,gamma retail,753 oak road,united kingdom,s3,S1_054
-S3_037,Gamma Ventures Inc.,4673 Oak Road,AUS,gamma ventures inc,gamma ventures,4673 oak road,australia,s3,S1_054
-S3_061,Gamma Financial Ltd,4086 Fifth Avenue,AUS,gamma financial ltd,gamma financial,4086 fifth avenue,australia,s3,S1_054
-S2_036,Beacon Labs Ltd,9038 Main Street,JPN,beacon labs ltd,beacon labs,9038 main street,japan,s2,S1_055
-S2_037,Beacon Labs Inc.,9038 Main Street,JPN,beacon labs inc,beacon labs,9038 main street,japan,s2,S1_055
-S2_025,Beacon Industries Inc.,7844 Broadway,JPN,beacon industries inc,beacon industries,7844 broadway,japan,s2,S1_055
-S2_031,Beacon Ventures Co,2679 Main Street,FR,beacon ventures co,beacon ventures,2679 main street,france,s2,S1_055
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_055
-S2_046,Beacon Media Co,7877 Washington Blvd,CA,beacon media co,beacon media,7877 washington boulevard,canada,s2,S1_055
-S2_056,Beacon Industries LLC,4626 Lincoln Way,USA,beacon industries llc,beacon industries,4626 lincoln way,united states,s2,S1_055
-S3_019,Beacon Group Group,2440 Fifth Avenue,UK,beacon group group,beacon,2440 fifth avenue,united kingdom,s3,S1_055
-S3_020,Beacon Group Co,2440 Fifth Avenue,UK,beacon group co,beacon,2440 fifth avenue,united kingdom,s3,S1_055
-S3_032,Beacon Logistics LLC,9164 Park Avenue,CA,beacon logistics llc,beacon logistics,9164 park avenue,canada,s3,S1_055
-S3_039,Beacon Industries Inc.,4273 Main Street,AUS,beacon industries inc,beacon industries,4273 main street,australia,s3,S1_055
-S3_056,Beacon Ventures Co,2606 Pine Street,UK,beacon ventures co,beacon ventures,2606 pine street,united kingdom,s3,S1_055
-S3_057,Beacon Ventures Ltd,2606 Pine Street,UK,beacon ventures ltd,beacon ventures,2606 pine street,united kingdom,s3,S1_055
-S2_039,Terra Ventures Group,7811 Broadway,UK,terra ventures group,terra ventures,7811 broadway,united kingdom,s2,S1_058
-S2_012,Terra Logistics Co,4606 Broadway,UK,terra logistics co,terra logistics,4606 broadway,united kingdom,s2,S1_058
-S2_014,Terra Labs Group,6973 Broadway,DE,terra labs group,terra labs,6973 broadway,germany,s2,S1_058
-S2_021,Terra Media Co,8935 Broadway,AUS,terra media co,terra media,8935 broadway,australia,s2,S1_058
-S2_034,Terra Group Group,4425 Lincoln Way,DE,terra group group,terra,4425 lincoln way,germany,s2,S1_058
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_058
-S3_021,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_058
-S3_022,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_058
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_058
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_058
-S3_053,Terra Industries Group,2083 Commercial Dr,JPN,terra industries group,terra industries,2083 commercial drive,japan,s3,S1_058
-S3_054,Terra Industries Inc.,2083 Commercial Dr,JPN,terra industries inc,terra industries,2083 commercial drive,japan,s3,S1_058
-S2_061,Atlas Media LLC,1170 Pine Street,DE,atlas media llc,atlas media,1170 pine street,germany,s2,S1_059
-S2_062,Atlas Media Holdings,1170 Pine Street,DE,atlas media holdings,atlas media,1170 pine street,germany,s2,S1_059
-S3_036,Atlas Media Corp,5100 Broadway,UK,atlas media corp,atlas media,5100 broadway,united kingdom,s3,S1_059
-S3_049,Atlas Media Corp,923 Fifth Avenue,DE,atlas media corp,atlas media,923 fifth avenue,germany,s3,S1_059
-S2_041,Delta Industries Ltd,726 Market Street,FR,delta industries ltd,delta industries,726 market street,france,s2,S1_061
-S3_038,Delta Industries Ltd,726 Market Street,FR,delta industries ltd,delta industries,726 market street,france,s3,S1_061
-S2_029,Delta Systems Ltd,7986 Broadway,JPN,delta systems ltd,delta systems,7986 broadway,japan,s2,S1_061
-S3_025,Delta Media Holdings,4415 Lincoln Way,JPN,delta media holdings,delta media,4415 lincoln way,japan,s3,S1_061
-S3_046,Delta Labs Inc.,1152 Pine Street,DE,delta labs inc,delta labs,1152 pine street,germany,s3,S1_061
-S3_050,Delta Media LLC,1974 Commercial Dr,UK,delta media llc,delta media,1974 commercial drive,united kingdom,s3,S1_061
-S2_025,Beacon Industries Inc.,7844 Broadway,JPN,beacon industries inc,beacon industries,7844 broadway,japan,s2,S1_062
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_062
-S2_056,Beacon Industries LLC,4626 Lincoln Way,USA,beacon industries llc,beacon industries,4626 lincoln way,united states,s2,S1_062
-S3_039,Beacon Industries Inc.,4273 Main Street,AUS,beacon industries inc,beacon industries,4273 main street,australia,s3,S1_062
-S2_012,Terra Logistics Co,4606 Broadway,UK,terra logistics co,terra logistics,4606 broadway,united kingdom,s2,S1_063
-S2_014,Terra Labs Group,6973 Broadway,DE,terra labs group,terra labs,6973 broadway,germany,s2,S1_063
-S2_021,Terra Media Co,8935 Broadway,AUS,terra media co,terra media,8935 broadway,australia,s2,S1_063
-S2_034,Terra Group Group,4425 Lincoln Way,DE,terra group group,terra,4425 lincoln way,germany,s2,S1_063
-S2_039,Terra Ventures Group,7811 Broadway,UK,terra ventures group,terra ventures,7811 broadway,united kingdom,s2,S1_063
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_063
-S3_021,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_063
-S3_022,Terra Health Co,7016 Commercial Dr,USA,terra health co,terra health,7016 commercial drive,united states,s3,S1_063
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_063
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_063
-S3_053,Terra Industries Group,2083 Commercial Dr,JPN,terra industries group,terra industries,2083 commercial drive,japan,s3,S1_063
-S3_054,Terra Industries Inc.,2083 Commercial Dr,JPN,terra industries inc,terra industries,2083 commercial drive,japan,s3,S1_063
-S3_034,Apex Health Holdings,2762 Park Avenue,DE,apex health holdings,apex health,2762 park avenue,germany,s3,S1_065
-S3_035,Apex Health Holdings,2762 Park Avenue,DE,apex health holdings,apex health,2762 park avenue,germany,s3,S1_065
-S3_041,Apex Health Corp,9424 Fifth Avenue,DE,apex health corp,apex health,9424 fifth avenue,germany,s3,S1_065
-S2_043,Echo Solutions Group,2880 Market Street,CA,echo solutions group,echo solutions,2880 market street,canada,s2,S1_067
-S3_043,Echo Solutions Inc.,2880 Market Street,CA,echo solutions inc,echo solutions,2880 market street,canada,s3,S1_067
-S2_017,Echo Group LLC,1269 Commercial Dr,AUS,echo group llc,echo,1269 commercial drive,australia,s2,S1_067
-S2_048,Echo Ventures Corp,6481 Commercial Dr,AUS,echo ventures corp,echo ventures,6481 commercial drive,australia,s2,S1_067
-S2_054,Echo Group LLC,759 Main Street,UK,echo group llc,echo,759 main street,united kingdom,s2,S1_067
-S3_016,Echo Group Ltd,1269 Commercial Dr,AUS,echo group ltd,echo,1269 commercial drive,australia,s3,S1_067
-S3_029,Echo Tech Co,8983 Main Street,AUS,echo tech co,echo tech,8983 main street,australia,s3,S1_067
-S3_042,Echo Systems Group,9602 Commercial Dr,AUS,echo systems group,echo systems,9602 commercial drive,australia,s3,S1_067
-S3_047,Echo Ventures Ltd,6481 Commercial Dr,AUS,echo ventures ltd,echo ventures,6481 commercial drive,australia,s3,S1_067
-S3_062,Echo Retail Group,8879 Park Avenue,UK,echo retail group,echo retail,8879 park avenue,united kingdom,s3,S1_067
-S2_044,Gamma Financial Ltd,3362 Park Avenue,USA,gamma financial ltd,gamma financial,3362 park avenue,united states,s2,S1_068
-S3_061,Gamma Financial Ltd,4086 Fifth Avenue,AUS,gamma financial ltd,gamma financial,4086 fifth avenue,australia,s3,S1_068
-S2_018,Gamma Group Holdings,9225 Broadway,AUS,gamma group holdings,gamma,9225 broadway,australia,s2,S1_068
-S2_022,Gamma Systems Inc.,6218 Washington Boulevard,FR,gamma systems inc,gamma systems,6218 washington boulevard,france,s2,S1_068
-S2_035,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_068
-S2_038,Gamma Retail Corp,753 Oak Road,UK,gamma retail corp,gamma retail,753 oak road,united kingdom,s2,S1_068
-S2_040,Gamma Ventures Corp,4673 Oak Road,AUS,gamma ventures corp,gamma ventures,4673 oak road,australia,s2,S1_068
-S2_049,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s2,S1_068
-S2_050,Gamma Capital Corp,6965 Lincoln Way,AUS,gamma capital corp,gamma capital,6965 lincoln way,australia,s2,S1_068
-S3_014,Gamma Logistics LLC,3914 Market Street,DE,gamma logistics llc,gamma logistics,3914 market street,germany,s3,S1_068
-S3_015,Gamma Logistics Corp,3914 Market Street,DE,gamma logistics corp,gamma logistics,3914 market street,germany,s3,S1_068
-S3_033,Gamma Retail Co,753 Oak Road,UK,gamma retail co,gamma retail,753 oak road,united kingdom,s3,S1_068
-S3_037,Gamma Ventures Inc.,4673 Oak Road,AUS,gamma ventures inc,gamma ventures,4673 oak road,australia,s3,S1_068
-S2_045,Omni Group Holdings,3285 Pine Street,DE,omni group holdings,omni,3285 pine street,germany,s2,S1_069
-S2_013,Omni Tech Group,1635 Broadway,UK,omni tech group,omni tech,1635 broadway,united kingdom,s2,S1_069
-S2_019,Omni Retail LLC,2366 Lincoln Way,DE,omni retail llc,omni retail,2366 lincoln way,germany,s2,S1_069
-S2_028,Omni Labs Ltd,1890 Broadway,UK,omni labs ltd,omni labs,1890 broadway,united kingdom,s2,S1_069
-S2_051,Omni Media Holdings,6471 Oak Road,AUS,omni media holdings,omni media,6471 oak road,australia,s2,S1_069
-S3_013,Omni Retail Inc.,2647 Broadway,JPN,omni retail inc,omni retail,2647 broadway,japan,s3,S1_069
-S2_060,Atlas Tech Corp,4758 Washington Boulevard,DE,atlas tech corp,atlas tech,4758 washington boulevard,germany,s2,S1_070
-S2_061,Atlas Media LLC,1170 Pine Street,DE,atlas media llc,atlas media,1170 pine street,germany,s2,S1_070
-S2_062,Atlas Media Holdings,1170 Pine Street,DE,atlas media holdings,atlas media,1170 pine street,germany,s2,S1_070
-S3_023,Atlas Tech Inc.,1976 Lincoln Way,JPN,atlas tech inc,atlas tech,1976 lincoln way,japan,s3,S1_070
-S3_024,Atlas Tech Ltd,1976 Lincoln Way,JPN,atlas tech ltd,atlas tech,1976 lincoln way,japan,s3,S1_070
-S3_036,Atlas Media Corp,5100 Broadway,UK,atlas media corp,atlas media,5100 broadway,united kingdom,s3,S1_070
-S3_049,Atlas Media Corp,923 Fifth Avenue,DE,atlas media corp,atlas media,923 fifth avenue,germany,s3,S1_070
-S2_046,Beacon Media Co,7877 Washington Blvd,CA,beacon media co,beacon media,7877 washington boulevard,canada,s2,S1_072
-S2_025,Beacon Industries Inc.,7844 Broadway,JPN,beacon industries inc,beacon industries,7844 broadway,japan,s2,S1_072
-S2_031,Beacon Ventures Co,2679 Main Street,FR,beacon ventures co,beacon ventures,2679 main street,france,s2,S1_072
-S2_036,Beacon Labs Ltd,9038 Main Street,JPN,beacon labs ltd,beacon labs,9038 main street,japan,s2,S1_072
-S2_037,Beacon Labs Inc.,9038 Main Street,JPN,beacon labs inc,beacon labs,9038 main street,japan,s2,S1_072
-S2_042,Beacon Industries Corp,4273 Main Street,AUS,beacon industries corp,beacon industries,4273 main street,australia,s2,S1_072
-S2_056,Beacon Industries LLC,4626 Lincoln Way,USA,beacon industries llc,beacon industries,4626 lincoln way,united states,s2,S1_072
-S3_019,Beacon Group Group,2440 Fifth Avenue,UK,beacon group group,beacon,2440 fifth avenue,united kingdom,s3,S1_072
-S3_020,Beacon Group Co,2440 Fifth Avenue,UK,beacon group co,beacon,2440 fifth avenue,united kingdom,s3,S1_072
-S3_032,Beacon Logistics LLC,9164 Park Avenue,CA,beacon logistics llc,beacon logistics,9164 park avenue,canada,s3,S1_072
-S3_039,Beacon Industries Inc.,4273 Main Street,AUS,beacon industries inc,beacon industries,4273 main street,australia,s3,S1_072
-S3_056,Beacon Ventures Co,2606 Pine Street,UK,beacon ventures co,beacon ventures,2606 pine street,united kingdom,s3,S1_072
-S3_057,Beacon Ventures Ltd,2606 Pine Street,UK,beacon ventures ltd,beacon ventures,2606 pine street,united kingdom,s3,S1_072
-S2_048,Echo Ventures Corp,6481 Commercial Dr,AUS,echo ventures corp,echo ventures,6481 commercial drive,australia,s2,S1_076
-S3_047,Echo Ventures Ltd,6481 Commercial Dr,AUS,echo ventures ltd,echo ventures,6481 commercial drive,australia,s3,S1_076
-S2_017,Echo Group LLC,1269 Commercial Dr,AUS,echo group llc,echo,1269 commercial drive,australia,s2,S1_076
-S2_043,Echo Solutions Group,2880 Market Street,CA,echo solutions group,echo solutions,2880 market street,canada,s2,S1_076
-S2_054,Echo Group LLC,759 Main Street,UK,echo group llc,echo,759 main street,united kingdom,s2,S1_076
-S3_016,Echo Group Ltd,1269 Commercial Dr,AUS,echo group ltd,echo,1269 commercial drive,australia,s3,S1_076
-S3_029,Echo Tech Co,8983 Main Street,AUS,echo tech co,echo tech,8983 main street,australia,s3,S1_076
-S3_042,Echo Systems Group,9602 Commercial Dr,AUS,echo systems group,echo systems,9602 commercial drive,australia,s3,S1_076
-S3_043,Echo Solutions Inc.,2880 Market Street,CA,echo solutions inc,echo solutions,2880 market street,canada,s3,S1_076
-S3_062,Echo Retail Group,8879 Park Avenue,UK,echo retail group,echo retail,8879 park avenue,united kingdom,s3,S1_076
-S2_051,Omni Media Holdings,6471 Oak Road,AUS,omni media holdings,omni media,6471 oak road,australia,s2,S1_078
-S2_013,Omni Tech Group,1635 Broadway,UK,omni tech group,omni tech,1635 broadway,united kingdom,s2,S1_078
-S2_019,Omni Retail LLC,2366 Lincoln Way,DE,omni retail llc,omni retail,2366 lincoln way,germany,s2,S1_078
-S2_028,Omni Labs Ltd,1890 Broadway,UK,omni labs ltd,omni labs,1890 broadway,united kingdom,s2,S1_078
-S2_045,Omni Group Holdings,3285 Pine Street,DE,omni group holdings,omni,3285 pine street,germany,s2,S1_078
-S3_013,Omni Retail Inc.,2647 Broadway,JPN,omni retail inc,omni retail,2647 broadway,japan,s3,S1_078
-S2_061,Atlas Media LLC,1170 Pine Street,DE,atlas media llc,atlas media,1170 pine street,germany,s2,S1_080
-S2_062,Atlas Media Holdings,1170 Pine Street,DE,atlas media holdings,atlas media,1170 pine street,germany,s2,S1_080
-S3_036,Atlas Media Corp,5100 Broadway,UK,atlas media corp,atlas media,5100 broadway,united kingdom,s3,S1_080
-S3_049,Atlas Media Corp,923 Fifth Avenue,DE,atlas media corp,atlas media,923 fifth avenue,germany,s3,S1_080
-S2_017,Echo Group LLC,1269 Commercial Dr,AUS,echo group llc,echo,1269 commercial drive,australia,s2,S1_082
-S2_054,Echo Group LLC,759 Main Street,UK,echo group llc,echo,759 main street,united kingdom,s2,S1_082
-S3_016,Echo Group Ltd,1269 Commercial Dr,AUS,echo group ltd,echo,1269 commercial drive,australia,s3,S1_082
-S3_025,Delta Media Holdings,4415 Lincoln Way,JPN,delta media holdings,delta media,4415 lincoln way,japan,s3,S1_083
-S3_050,Delta Media LLC,1974 Commercial Dr,UK,delta media llc,delta media,1974 commercial drive,united kingdom,s3,S1_083
-S2_029,Delta Systems Ltd,7986 Broadway,JPN,delta systems ltd,delta systems,7986 broadway,japan,s2,S1_083
-S2_041,Delta Industries Ltd,726 Market Street,FR,delta industries ltd,delta industries,726 market street,france,s2,S1_083
-S3_038,Delta Industries Ltd,726 Market Street,FR,delta industries ltd,delta industries,726 market street,france,s3,S1_083
-S3_046,Delta Labs Inc.,1152 Pine Street,DE,delta labs inc,delta labs,1152 pine street,germany,s3,S1_083
-S2_055,Terra Systems Inc.,3349 Market Street,FR,terra systems inc,terra systems,3349 market street,france,s2,S1_085
-S3_040,Terra Systems Group,6692 Fifth Avenue,FR,terra systems group,terra systems,6692 fifth avenue,france,s3,S1_085
-S3_052,Terra Systems Holdings,3349 Market Street,FR,terra systems holdings,terra systems,3349 market street,france,s3,S1_085
-S3_055,Quantum Group Group,307 Pine Street,JPN,quantum group group,quantum,307 pine street,japan,s3,S1_087
-S2_013,Omni Tech Group,1635 Broadway,UK,omni tech group,omni tech,1635 broadway,united kingdom,s2,S1_089
-S2_019,Omni Retail LLC,2366 Lincoln Way,DE,omni retail llc,omni retail,2366 lincoln way,germany,s2,S1_089
-S2_028,Omni Labs Ltd,1890 Broadway,UK,omni labs ltd,omni labs,1890 broadway,united kingdom,s2,S1_089
-S2_045,Omni Group Holdings,3285 Pine Street,DE,omni group holdings,omni,3285 pine street,germany,s2,S1_089
-S2_051,Omni Media Holdings,6471 Oak Road,AUS,omni media holdings,omni media,6471 oak road,australia,s2,S1_089
-S3_013,Omni Retail Inc.,2647 Broadway,JPN,omni retail inc,omni retail,2647 broadway,japan,s3,S1_089
-S3_058,Beta Energy Inc.,4095 Washington Boulevard,FR,beta energy inc,beta energy,4095 washington boulevard,france,s3,S1_090
-S2_016,Beta Solutions Holdings,6025 Commercial Dr,UK,beta solutions holdings,beta solutions,6025 commercial drive,united kingdom,s2,S1_090
-S2_024,Beta Tech Group,5513 Market Street,FR,beta tech group,beta tech,5513 market street,france,s2,S1_090
-S2_026,Beta Group Group,5904 Pine Street,DE,beta group group,beta,5904 pine street,germany,s2,S1_090
-S2_027,Beta Group Inc.,5904 Pine Street,DE,beta group inc,beta,5904 pine street,germany,s2,S1_090
-S3_012,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_090
-S3_027,Beta Tech LLC,5513 Market Street,FR,beta tech llc,beta tech,5513 market street,france,s3,S1_090
-S3_059,Prime Ventures Corp,3079 Washington Boulevard,UK,prime ventures corp,prime ventures,3079 washington boulevard,united kingdom,s3,S1_091
-S2_052,Prime Health Inc.,8851 Main Street,DE,prime health inc,prime health,8851 main street,germany,s2,S1_091
-S3_044,Prime Tech Holdings,4182 Market Street,DE,prime tech holdings,prime tech,4182 market street,germany,s3,S1_091
-S3_048,Prime Health LLC,8851 Main Street,DE,prime health llc,prime health,8851 main street,germany,s3,S1_091
-S2_044,Gamma Financial Ltd,3362 Park Avenue,USA,gamma financial ltd,gamma financial,3362 park avenue,united states,s2,S1_094
-S3_061,Gamma Financial Ltd,4086 Fifth Avenue,AUS,gamma financial ltd,gamma financial,4086 fifth avenue,australia,s3,S1_094
-S2_018,Gamma Group Holdings,9225 Broadway,AUS,gamma group holdings,gamma,9225 broadway,australia,s2,S1_094
-S2_022,Gamma Systems Inc.,6218 Washington Boulevard,FR,gamma systems inc,gamma systems,6218 washington boulevard,france,s2,S1_094
-S2_035,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_094
-S2_038,Gamma Retail Corp,753 Oak Road,UK,gamma retail corp,gamma retail,753 oak road,united kingdom,s2,S1_094
-S2_040,Gamma Ventures Corp,4673 Oak Road,AUS,gamma ventures corp,gamma ventures,4673 oak road,australia,s2,S1_094
-S2_049,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s2,S1_094
-S2_050,Gamma Capital Corp,6965 Lincoln Way,AUS,gamma capital corp,gamma capital,6965 lincoln way,australia,s2,S1_094
-S3_014,Gamma Logistics LLC,3914 Market Street,DE,gamma logistics llc,gamma logistics,3914 market street,germany,s3,S1_094
-S3_015,Gamma Logistics Corp,3914 Market Street,DE,gamma logistics corp,gamma logistics,3914 market street,germany,s3,S1_094
-S3_033,Gamma Retail Co,753 Oak Road,UK,gamma retail co,gamma retail,753 oak road,united kingdom,s3,S1_094
-S3_037,Gamma Ventures Inc.,4673 Oak Road,AUS,gamma ventures inc,gamma ventures,4673 oak road,australia,s3,S1_094
-S2_058,Apex Solutions Group,5864 Washington Boulevard,CA,apex solutions group,apex solutions,5864 washington boulevard,canada,s2,S1_095
-S2_059,Apex Solutions Group,4594 Main Street,USA,apex solutions group,apex solutions,4594 main street,united states,s2,S1_095
-S3_064,Apex Solutions Inc.,4594 Main Street,USA,apex solutions inc,apex solutions,4594 main street,united states,s3,S1_095
-S3_062,Echo Retail Group,8879 Park Avenue,UK,echo retail group,echo retail,8879 park avenue,united kingdom,s3,S1_096
-S2_017,Echo Group LLC,1269 Commercial Dr,AUS,echo group llc,echo,1269 commercial drive,australia,s2,S1_096
-S2_043,Echo Solutions Group,2880 Market Street,CA,echo solutions group,echo solutions,2880 market street,canada,s2,S1_096
-S2_048,Echo Ventures Corp,6481 Commercial Dr,AUS,echo ventures corp,echo ventures,6481 commercial drive,australia,s2,S1_096
-S2_054,Echo Group LLC,759 Main Street,UK,echo group llc,echo,759 main street,united kingdom,s2,S1_096
-S3_016,Echo Group Ltd,1269 Commercial Dr,AUS,echo group ltd,echo,1269 commercial drive,australia,s3,S1_096
-S3_029,Echo Tech Co,8983 Main Street,AUS,echo tech co,echo tech,8983 main street,australia,s3,S1_096
-S3_042,Echo Systems Group,9602 Commercial Dr,AUS,echo systems group,echo systems,9602 commercial drive,australia,s3,S1_096
-S3_043,Echo Solutions Inc.,2880 Market Street,CA,echo solutions inc,echo solutions,2880 market street,canada,s3,S1_096
-S3_047,Echo Ventures Ltd,6481 Commercial Dr,AUS,echo ventures ltd,echo ventures,6481 commercial drive,australia,s3,S1_096
-S2_058,Apex Solutions Group,5864 Washington Boulevard,CA,apex solutions group,apex solutions,5864 washington boulevard,canada,s2,S1_098
-S2_059,Apex Solutions Group,4594 Main Street,USA,apex solutions group,apex solutions,4594 main street,united states,s2,S1_098
-S3_064,Apex Solutions Inc.,4594 Main Street,USA,apex solutions inc,apex solutions,4594 main street,united states,s3,S1_098
-S2_061,Atlas Media LLC,1170 Pine Street,DE,atlas media llc,atlas media,1170 pine street,germany,s2,S1_100
-S2_062,Atlas Media Holdings,1170 Pine Street,DE,atlas media holdings,atlas media,1170 pine street,germany,s2,S1_100
-S3_036,Atlas Media Corp,5100 Broadway,UK,atlas media corp,atlas media,5100 broadway,united kingdom,s3,S1_100
-S3_049,Atlas Media Corp,923 Fifth Avenue,DE,atlas media corp,atlas media,923 fifth avenue,germany,s3,S1_100
+S2_003,Starlite Retailers,12 Star Avenue,USA,starlite retailers,starlite retailers,12 star avenue,united states,s2,S1_004
+S3_003,Vortex Technologies Group,50 Tech Park,UK,vortex technologies group,vortex technologies,50 tech park,united kingdom,s3,S1_005
+S2_004,Summit Health Systems,300 Doctors Drive Apartment 2B,USA,summit health systems,summit health systems,300 doctors drive apartment 2b,united states,s2,S1_006
+S2_005,Pacific Financial,500 Wall St,USA,pacific financial,pacific financial,500 wall street,united states,s2,S1_008
+S3_078,Omni Solutions Inc.,1141 Washington Blvd,DE,omni solutions inc,omni solutions,1141 washington boulevard,germany,s3,S1_009
+S3_032,Solar Solutions Inc.,6411 Commercial Dr,UK,solar solutions inc,solar solutions,6411 commercial drive,united kingdom,s3,S1_009
+S2_094,Delta Logistics Inc.,2818 Fifth Ave,FR,delta logistics inc,delta logistics,2818 fifth avenue,france,s2,S1_009
+S2_007,Alpha Biotech LLC,80 Science Road,USA,alpha biotech llc,alpha biotech,80 science road,united states,s2,S1_011
+S2_042,Alpha Financial Inc.,6983 Pine Street,JPN,alpha financial inc,alpha financial,6983 pine street,japan,s2,S1_011
+S2_046,Alpha Capital Inc.,4151 Broadway,JPN,alpha capital inc,alpha capital,4151 broadway,japan,s2,S1_011
+S2_047,Alpha Industries LLC,4008 Park Ave,DE,alpha industries llc,alpha industries,4008 park avenue,germany,s2,S1_011
+S2_079,Alpha Industries Corp,7790 Washington Blvd,DE,alpha industries corp,alpha industries,7790 washington boulevard,germany,s2,S1_011
+S2_087,Alpha Industries Group,1725 Broadway,AUS,alpha industries group,alpha industries,1725 broadway,australia,s2,S1_011
+S2_099,Alpha Logistics LLC,9524 Commercial Dr,USA,alpha logistics llc,alpha logistics,9524 commercial drive,united states,s2,S1_011
+S2_108,Alpha Group Holdings,8989 Washington Blvd,DE,alpha group holdings,alpha,8989 washington boulevard,germany,s2,S1_011
+S2_109,Alpha Financial Co,6027 Commercial Dr,JPN,alpha financial co,alpha financial,6027 commercial drive,japan,s2,S1_011
+S2_112,Alpha Group Co,4020 Park Ave,CA,alpha group co,alpha,4020 park avenue,canada,s2,S1_011
+S2_136,Alpha Energy Corp,6241 Pine St,UK,alpha energy corp,alpha energy,6241 pine street,united kingdom,s2,S1_011
+S3_044,Alpha Financial Holdings,6983 Pine Street,JPN,alpha financial holdings,alpha financial,6983 pine street,japan,s3,S1_011
+S3_059,Alpha Industries Co,5474 Commercial Dr,UK,alpha industries co,alpha industries,5474 commercial drive,united kingdom,s3,S1_011
+S3_077,Alpha Health Corp,958 Park Ave,AUS,alpha health corp,alpha health,958 park avenue,australia,s3,S1_011
+S3_113,Alpha Financial Corp,3560 Park Ave,JPN,alpha financial corp,alpha financial,3560 park avenue,japan,s3,S1_011
+S2_009,Apex Solutions LLC,9774 Pine Street,USA,apex solutions llc,apex solutions,9774 pine street,united states,s2,S1_014
+S2_073,Apex Solutions Holdings,3133 Broadway,UK,apex solutions holdings,apex solutions,3133 broadway,united kingdom,s2,S1_014
+S3_025,Apex Solutions LLC,4562 Fifth Avenue,FR,apex solutions llc,apex solutions,4562 fifth avenue,france,s3,S1_014
+S2_010,Quantum Industries Ltd,9295 Broadway,AUS,quantum industries ltd,quantum industries,9295 broadway,australia,s2,S1_015
+S3_006,Quantum Industries LLC,9295 Broadway,AUS,quantum industries llc,quantum industries,9295 broadway,australia,s3,S1_015
+S2_015,Quantum Solutions LLC,9677 Pine Street,FR,quantum solutions llc,quantum solutions,9677 pine street,france,s2,S1_015
+S2_016,Quantum Media Ltd,871 Market Street,UK,quantum media ltd,quantum media,871 market street,united kingdom,s2,S1_015
+S2_027,Quantum Retail Group,3446 Oak Road,UK,quantum retail group,quantum retail,3446 oak road,united kingdom,s2,S1_015
+S2_037,Quantum Capital Corp,3328 Oak Road,DE,quantum capital corp,quantum capital,3328 oak road,germany,s2,S1_015
+S2_070,Quantum Solutions Corp,7071 Lincoln Way,CA,quantum solutions corp,quantum solutions,7071 lincoln way,canada,s2,S1_015
+S2_097,Quantum Media Ltd,1417 Commercial Dr,USA,quantum media ltd,quantum media,1417 commercial drive,united states,s2,S1_015
+S2_111,Quantum Health Corp,7278 Washington Blvd,USA,quantum health corp,quantum health,7278 washington boulevard,united states,s2,S1_015
+S2_113,Quantum Tech Co,6784 Market St,UK,quantum tech co,quantum tech,6784 market street,united kingdom,s2,S1_015
+S3_011,Quantum Media Co,871 Market Street,UK,quantum media co,quantum media,871 market street,united kingdom,s3,S1_015
+S3_013,Quantum Logistics Holdings,4989 Lincoln Way,FR,quantum logistics holdings,quantum logistics,4989 lincoln way,france,s3,S1_015
+S3_033,Quantum Capital Co,3328 Oak Road,DE,quantum capital co,quantum capital,3328 oak road,germany,s3,S1_015
+S3_052,Quantum Retail Co,8321 Fifth Ave,JPN,quantum retail co,quantum retail,8321 fifth avenue,japan,s3,S1_015
+S3_080,Quantum Financial Co,810 Lincoln Way,CA,quantum financial co,quantum financial,810 lincoln way,canada,s3,S1_015
+S3_086,Quantum Energy Ltd,8382 Commercial Dr,DE,quantum energy ltd,quantum energy,8382 commercial drive,germany,s3,S1_015
+S3_105,Quantum Financial Ltd,6978 Washington Blvd,CA,quantum financial ltd,quantum financial,6978 washington boulevard,canada,s3,S1_015
+S3_110,Quantum Logistics Corp,7143 Market St,CA,quantum logistics corp,quantum logistics,7143 market street,canada,s3,S1_015
+S3_135,Quantum Systems Ltd,9608 Lincoln Way,JPN,quantum systems ltd,quantum systems,9608 lincoln way,japan,s3,S1_015
+S3_140,Quantum Solutions Co,2700 Oak Rd,CA,quantum solutions co,quantum solutions,2700 oak road,canada,s3,S1_015
+S3_007,Prime Industries LLC,206 Park Avenue,AUS,prime industries llc,prime industries,206 park avenue,australia,s3,S1_016
+S3_065,Prime Industries Ltd,4683 Main St,AUS,prime industries ltd,prime industries,4683 main street,australia,s3,S1_016
+S2_022,Prime Logistics LLC,3781 Market Street,CA,prime logistics llc,prime logistics,3781 market street,canada,s2,S1_016
+S2_063,Prime Ventures Corp,3079 Washington Blvd,UK,prime ventures corp,prime ventures,3079 washington boulevard,united kingdom,s2,S1_016
+S2_090,Prime Labs Co,7799 Fifth Ave,USA,prime labs co,prime labs,7799 fifth avenue,united states,s2,S1_016
+S2_096,Prime Labs Corp,6694 Fifth Ave,FR,prime labs corp,prime labs,6694 fifth avenue,france,s2,S1_016
+S2_102,Prime Energy LLC,9690 Pine St,AUS,prime energy llc,prime energy,9690 pine street,australia,s2,S1_016
+S2_110,Prime Group Ltd,945 Broadway,CA,prime group ltd,prime,945 broadway,canada,s2,S1_016
+S2_122,Prime Retail Corp,9142 Lincoln Way,DE,prime retail corp,prime retail,9142 lincoln way,germany,s2,S1_016
+S2_123,Prime Retail Holdings,3190 Broadway,FR,prime retail holdings,prime retail,3190 broadway,france,s2,S1_016
+S2_141,Prime Energy Group,9055 Park Ave,USA,prime energy group,prime energy,9055 park avenue,united states,s2,S1_016
+S2_142,Prime Retail Co,5001 Pine St,AUS,prime retail co,prime retail,5001 pine street,australia,s2,S1_016
+S2_148,Prime Ventures Corp,3870 Commercial Dr,JPN,prime ventures corp,prime ventures,3870 commercial drive,japan,s2,S1_016
+S3_017,Prime Logistics Co,3781 Market Street,CA,prime logistics co,prime logistics,3781 market street,canada,s3,S1_016
+S3_019,Prime Ventures Holdings,987 Market Street,USA,prime ventures holdings,prime ventures,987 market street,united states,s3,S1_016
+S3_062,Prime Logistics Inc.,3946 Lincoln Way,UK,prime logistics inc,prime logistics,3946 lincoln way,united kingdom,s3,S1_016
+S3_081,Prime Group Inc.,1096 Washington Blvd,JPN,prime group inc,prime,1096 washington boulevard,japan,s3,S1_016
+S3_118,Prime Logistics Holdings,5229 Commercial Dr,DE,prime logistics holdings,prime logistics,5229 commercial drive,germany,s3,S1_016
+S3_131,Prime Logistics Ltd,7345 Fifth Ave,JPN,prime logistics ltd,prime logistics,7345 fifth avenue,japan,s3,S1_016
+S3_008,Echo Capital Co,1774 Market Street,DE,echo capital co,echo capital,1774 market street,germany,s3,S1_017
+S3_099,Echo Capital Ltd,9290 Commercial Dr,FR,echo capital ltd,echo capital,9290 commercial drive,france,s3,S1_017
+S2_014,Echo Group Group,6582 Washington Boulevard,UK,echo group group,echo,6582 washington boulevard,united kingdom,s2,S1_017
+S2_040,Echo Health Holdings,190 Market Street,JPN,echo health holdings,echo health,190 market street,japan,s2,S1_017
+S2_044,Echo Energy Holdings,8056 Main Street,DE,echo energy holdings,echo energy,8056 main street,germany,s2,S1_017
+S2_061,Echo Ventures Inc.,4669 Washington Blvd,UK,echo ventures inc,echo ventures,4669 washington boulevard,united kingdom,s2,S1_017
+S2_072,Echo Logistics Group,3255 Oak Rd,USA,echo logistics group,echo logistics,3255 oak road,united states,s2,S1_017
+S2_088,Echo Energy Group,1430 Park Ave,UK,echo energy group,echo energy,1430 park avenue,united kingdom,s2,S1_017
+S2_091,Echo Energy Group,4732 Washington Blvd,USA,echo energy group,echo energy,4732 washington boulevard,united states,s2,S1_017
+S2_137,Echo Solutions Ltd,9372 Park Ave,UK,echo solutions ltd,echo solutions,9372 park avenue,united kingdom,s2,S1_017
+S2_139,Echo Media Co,2444 Broadway,DE,echo media co,echo media,2444 broadway,germany,s2,S1_017
+S3_046,Echo Energy Ltd,8056 Main Street,DE,echo energy ltd,echo energy,8056 main street,germany,s3,S1_017
+S2_043,Gamma Capital LLC,6965 Lincoln Way,AUS,gamma capital llc,gamma capital,6965 lincoln way,australia,s2,S1_018
+S2_049,Gamma Capital Corp,2849 Commercial Dr,FR,gamma capital corp,gamma capital,2849 commercial drive,france,s2,S1_018
+S3_045,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s3,S1_018
+S2_011,Omni Logistics Group,4903 Commercial Dr,JPN,omni logistics group,omni logistics,4903 commercial drive,japan,s2,S1_019
+S3_061,Omni Logistics LLC,842 Main St,CA,omni logistics llc,omni logistics,842 main street,canada,s3,S1_019
+S2_105,Omni Labs Ltd,4822 Pine St,JPN,omni labs ltd,omni labs,4822 pine street,japan,s2,S1_019
+S2_124,Omni Financial Holdings,6830 Main St,CA,omni financial holdings,omni financial,6830 main street,canada,s2,S1_019
+S3_035,Omni Labs Group,9183 Park Avenue,UK,omni labs group,omni labs,9183 park avenue,united kingdom,s3,S1_019
+S3_063,Omni Media Corp,8950 Pine St,FR,omni media corp,omni media,8950 pine street,france,s3,S1_019
+S3_078,Omni Solutions Inc.,1141 Washington Blvd,DE,omni solutions inc,omni solutions,1141 washington boulevard,germany,s3,S1_019
+S3_082,Omni Systems Group,1868 Washington Blvd,AUS,omni systems group,omni systems,1868 washington boulevard,australia,s3,S1_019
+S3_117,Omni Ventures Group,793 Pine St,USA,omni ventures group,omni ventures,793 pine street,united states,s3,S1_019
+S3_120,Omni Tech Corp,2915 Commercial Dr,DE,omni tech corp,omni tech,2915 commercial drive,germany,s3,S1_019
+S3_145,Beta Industries Group,2417 Oak Rd,CA,beta industries group,beta industries,2417 oak road,canada,s3,S1_020
+S3_107,Beta Tech LLC,2679 Commercial Dr,USA,beta tech llc,beta tech,2679 commercial drive,united states,s3,S1_020
+S3_143,Beta Solutions Group,6433 Fifth Ave,CA,beta solutions group,beta solutions,6433 fifth avenue,canada,s3,S1_020
+S3_005,Beta Systems Corp,90 Tech Lane,UK,beta systems corp,beta systems,90 tech lane,united kingdom,s3,S1_020
+S3_028,Beta Systems Corp,734 Washington Boulevard,UK,beta systems corp,beta systems,734 washington boulevard,united kingdom,s3,S1_020
+S3_087,Beta Capital Group,1974 Lincoln Way,AUS,beta capital group,beta capital,1974 lincoln way,australia,s3,S1_020
+S3_057,Beta Media Corp,4395 Commercial Dr,DE,beta media corp,beta media,4395 commercial drive,germany,s3,S1_020
+S2_066,Beta Financial Group,6758 Washington Blvd,FR,beta financial group,beta financial,6758 washington boulevard,france,s2,S1_020
+S3_039,Beta Media Co,7712 Lincoln Way,FR,beta media co,beta media,7712 lincoln way,france,s3,S1_020
+S2_134,Beta Systems Inc.,1746 Washington Blvd,UK,beta systems inc,beta systems,1746 washington boulevard,united kingdom,s2,S1_020
+S3_012,Beta Systems Inc.,9863 Washington Boulevard,FR,beta systems inc,beta systems,9863 washington boulevard,france,s3,S1_020
+S3_056,Beta Capital Ltd,328 Fifth Ave,FR,beta capital ltd,beta capital,328 fifth avenue,france,s3,S1_020
+S2_017,Beta Systems Holdings,9863 Washington Boulevard,FR,beta systems holdings,beta systems,9863 washington boulevard,france,s2,S1_020
+S2_032,Beta Labs LLC,9038 Main Street,JPN,beta labs llc,beta labs,9038 main street,japan,s2,S1_020
+S3_026,Beta Labs Ltd,9038 Main Street,JPN,beta labs ltd,beta labs,9038 main street,japan,s3,S1_020
+S3_123,Beta Systems Holdings,5183 Oak Rd,UK,beta systems holdings,beta systems,5183 oak road,united kingdom,s3,S1_020
+S3_125,Beta Solutions Co,3276 Oak Rd,CA,beta solutions co,beta solutions,3276 oak road,canada,s3,S1_020
+S2_093,Beta Solutions LLC,2541 Fifth Ave,JPN,beta solutions llc,beta solutions,2541 fifth avenue,japan,s2,S1_020
+S3_092,Beta Logistics Ltd,1682 Oak Rd,JPN,beta logistics ltd,beta logistics,1682 oak road,japan,s3,S1_020
+S3_038,Beta Media Ltd,9531 Broadway,AUS,beta media ltd,beta media,9531 broadway,australia,s3,S1_020
+S2_081,Atlas Logistics Ltd,8156 Market St,FR,atlas logistics ltd,atlas logistics,8156 market street,france,s2,S1_021
+S2_114,Atlas Logistics Ltd,2024 Park Ave,DE,atlas logistics ltd,atlas logistics,2024 park avenue,germany,s2,S1_021
+S3_020,Atlas Logistics LLC,3239 Broadway,FR,atlas logistics llc,atlas logistics,3239 broadway,france,s3,S1_021
+S3_106,Delta Retail Corp,5414 Commercial Dr,FR,delta retail corp,delta retail,5414 commercial drive,france,s3,S1_022
+S2_058,Delta Labs Co,4525 Commercial Dr,JPN,delta labs co,delta labs,4525 commercial drive,japan,s2,S1_022
+S2_127,Delta Solutions Co,5539 Market St,JPN,delta solutions co,delta solutions,5539 market street,japan,s2,S1_022
+S2_138,Delta Logistics Co,6367 Commercial Dr,AUS,delta logistics co,delta logistics,6367 commercial drive,australia,s2,S1_022
+S3_055,Delta Capital LLC,6611 Lincoln Way,CA,delta capital llc,delta capital,6611 lincoln way,canada,s3,S1_022
+S3_043,Delta Labs Ltd,1152 Pine Street,DE,delta labs ltd,delta labs,1152 pine street,germany,s3,S1_022
+S3_027,Delta Capital Holdings,3000 Pine Street,USA,delta capital holdings,delta capital,3000 pine street,united states,s3,S1_022
+S3_091,Delta Group Ltd,1199 Market St,JPN,delta group ltd,delta,1199 market street,japan,s3,S1_022
+S3_097,Delta Group Ltd,3774 Market St,CA,delta group ltd,delta,3774 market street,canada,s3,S1_022
+S2_033,Delta Tech Group,6074 Main Street,CA,delta tech group,delta tech,6074 main street,canada,s2,S1_022
+S3_071,Delta Capital Co,3462 Market St,JPN,delta capital co,delta capital,3462 market street,japan,s3,S1_022
+S3_104,Delta Labs Group,602 Market St,AUS,delta labs group,delta labs,602 market street,australia,s3,S1_022
+S3_127,Delta Energy LLC,2942 Commercial Dr,UK,delta energy llc,delta energy,2942 commercial drive,united kingdom,s3,S1_022
+S3_103,Delta Ventures LLC,9378 Pine St,USA,delta ventures llc,delta ventures,9378 pine street,united states,s3,S1_022
+S2_019,Delta Solutions Inc.,8789 Main Street,FR,delta solutions inc,delta solutions,8789 main street,france,s2,S1_022
+S2_089,Delta Solutions Inc.,2664 Main St,DE,delta solutions inc,delta solutions,2664 main street,germany,s2,S1_022
+S2_094,Delta Logistics Inc.,2818 Fifth Ave,FR,delta logistics inc,delta logistics,2818 fifth avenue,france,s2,S1_022
+S3_084,Delta Logistics LLC,4605 Commercial Dr,AUS,delta logistics llc,delta logistics,4605 commercial drive,australia,s3,S1_022
+S3_093,Delta Solutions Inc.,9708 Lincoln Way,FR,delta solutions inc,delta solutions,9708 lincoln way,france,s3,S1_022
+S2_078,Delta Group Holdings,8142 Market St,JPN,delta group holdings,delta,8142 market street,japan,s2,S1_022
+S2_008,Terra Logistics Group,4606 Broadway,UK,terra logistics group,terra logistics,4606 broadway,united kingdom,s2,S1_023
+S2_048,Terra Logistics Co,3671 Washington Blvd,AUS,terra logistics co,terra logistics,3671 washington boulevard,australia,s2,S1_023
+S3_009,Terra Logistics Ltd,2903 Lincoln Way,AUS,terra logistics ltd,terra logistics,2903 lincoln way,australia,s3,S1_023
+S3_060,Terra Logistics Group,7706 Fifth Ave,AUS,terra logistics group,terra logistics,7706 fifth avenue,australia,s3,S1_023
+S3_108,Terra Logistics Corp,7359 Pine St,DE,terra logistics corp,terra logistics,7359 pine street,germany,s3,S1_023
+S2_014,Echo Group Group,6582 Washington Boulevard,UK,echo group group,echo,6582 washington boulevard,united kingdom,s2,S1_026
+S2_040,Echo Health Holdings,190 Market Street,JPN,echo health holdings,echo health,190 market street,japan,s2,S1_026
+S2_044,Echo Energy Holdings,8056 Main Street,DE,echo energy holdings,echo energy,8056 main street,germany,s2,S1_026
+S2_061,Echo Ventures Inc.,4669 Washington Blvd,UK,echo ventures inc,echo ventures,4669 washington boulevard,united kingdom,s2,S1_026
+S2_072,Echo Logistics Group,3255 Oak Rd,USA,echo logistics group,echo logistics,3255 oak road,united states,s2,S1_026
+S2_088,Echo Energy Group,1430 Park Ave,UK,echo energy group,echo energy,1430 park avenue,united kingdom,s2,S1_026
+S2_091,Echo Energy Group,4732 Washington Blvd,USA,echo energy group,echo energy,4732 washington boulevard,united states,s2,S1_026
+S2_137,Echo Solutions Ltd,9372 Park Ave,UK,echo solutions ltd,echo solutions,9372 park avenue,united kingdom,s2,S1_026
+S2_139,Echo Media Co,2444 Broadway,DE,echo media co,echo media,2444 broadway,germany,s2,S1_026
+S3_008,Echo Capital Co,1774 Market Street,DE,echo capital co,echo capital,1774 market street,germany,s3,S1_026
+S3_046,Echo Energy Ltd,8056 Main Street,DE,echo energy ltd,echo energy,8056 main street,germany,s3,S1_026
+S3_099,Echo Capital Ltd,9290 Commercial Dr,FR,echo capital ltd,echo capital,9290 commercial drive,france,s3,S1_026
+S2_018,Terra Labs Corp,8897 Fifth Avenue,JPN,terra labs corp,terra labs,8897 fifth avenue,japan,s2,S1_030
+S2_132,Terra Labs Holdings,8094 Lincoln Way,USA,terra labs holdings,terra labs,8094 lincoln way,united states,s2,S1_030
+S3_146,Terra Labs Group,6521 Park Ave,FR,terra labs group,terra labs,6521 park avenue,france,s3,S1_030
+S2_011,Omni Logistics Group,4903 Commercial Dr,JPN,omni logistics group,omni logistics,4903 commercial drive,japan,s2,S1_031
+S2_105,Omni Labs Ltd,4822 Pine St,JPN,omni labs ltd,omni labs,4822 pine street,japan,s2,S1_031
+S2_124,Omni Financial Holdings,6830 Main St,CA,omni financial holdings,omni financial,6830 main street,canada,s2,S1_031
+S3_035,Omni Labs Group,9183 Park Avenue,UK,omni labs group,omni labs,9183 park avenue,united kingdom,s3,S1_031
+S3_061,Omni Logistics LLC,842 Main St,CA,omni logistics llc,omni logistics,842 main street,canada,s3,S1_031
+S3_063,Omni Media Corp,8950 Pine St,FR,omni media corp,omni media,8950 pine street,france,s3,S1_031
+S3_078,Omni Solutions Inc.,1141 Washington Blvd,DE,omni solutions inc,omni solutions,1141 washington boulevard,germany,s3,S1_031
+S3_082,Omni Systems Group,1868 Washington Blvd,AUS,omni systems group,omni systems,1868 washington boulevard,australia,s3,S1_031
+S3_117,Omni Ventures Group,793 Pine St,USA,omni ventures group,omni ventures,793 pine street,united states,s3,S1_031
+S3_120,Omni Tech Corp,2915 Commercial Dr,DE,omni tech corp,omni tech,2915 commercial drive,germany,s3,S1_031
+S2_020,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s2,S1_034
+S3_014,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s3,S1_034
+S2_025,Beacon Ventures Inc.,2679 Main Street,FR,beacon ventures inc,beacon ventures,2679 main street,france,s2,S1_034
+S2_045,Beacon Systems Group,7006 Fifth Avenue,JPN,beacon systems group,beacon systems,7006 fifth avenue,japan,s2,S1_034
+S2_059,Beacon Solutions Holdings,8021 Washington Blvd,DE,beacon solutions holdings,beacon solutions,8021 washington boulevard,germany,s2,S1_034
+S2_098,Beacon Systems Group,5380 Commercial Dr,CA,beacon systems group,beacon systems,5380 commercial drive,canada,s2,S1_034
+S2_115,Beacon Labs Corp,8437 Fifth Ave,DE,beacon labs corp,beacon labs,8437 fifth avenue,germany,s2,S1_034
+S2_118,Beacon Health Holdings,1243 Fifth Ave,JPN,beacon health holdings,beacon health,1243 fifth avenue,japan,s2,S1_034
+S3_083,Beacon Media Inc.,1423 Oak Rd,FR,beacon media inc,beacon media,1423 oak road,france,s3,S1_034
+S3_141,Beacon Energy Ltd,6797 Oak Rd,AUS,beacon energy ltd,beacon energy,6797 oak road,australia,s3,S1_034
+S2_052,Apex Financial Inc.,9800 Broadway,USA,apex financial inc,apex financial,9800 broadway,united states,s2,S1_037
+S2_069,Apex Financial Corp,9628 Oak Rd,DE,apex financial corp,apex financial,9628 oak road,germany,s2,S1_037
+S3_016,Apex Financial Co,5207 Pine Street,AUS,apex financial co,apex financial,5207 pine street,australia,s3,S1_037
+S3_116,Apex Financial Co,9254 Oak Rd,USA,apex financial co,apex financial,9254 oak road,united states,s3,S1_037
+S2_022,Prime Logistics LLC,3781 Market Street,CA,prime logistics llc,prime logistics,3781 market street,canada,s2,S1_038
+S3_017,Prime Logistics Co,3781 Market Street,CA,prime logistics co,prime logistics,3781 market street,canada,s3,S1_038
+S3_062,Prime Logistics Inc.,3946 Lincoln Way,UK,prime logistics inc,prime logistics,3946 lincoln way,united kingdom,s3,S1_038
+S3_118,Prime Logistics Holdings,5229 Commercial Dr,DE,prime logistics holdings,prime logistics,5229 commercial drive,germany,s3,S1_038
+S3_131,Prime Logistics Ltd,7345 Fifth Ave,JPN,prime logistics ltd,prime logistics,7345 fifth avenue,japan,s3,S1_038
+S2_023,Atlas Retail Co,8523 Broadway,CA,atlas retail co,atlas retail,8523 broadway,canada,s2,S1_040
+S3_054,Atlas Retail Holdings,1986 Washington Blvd,USA,atlas retail holdings,atlas retail,1986 washington boulevard,united states,s3,S1_040
+S2_103,Atlas Media Inc.,7800 Oak Rd,DE,atlas media inc,atlas media,7800 oak road,germany,s2,S1_040
+S2_128,Atlas Media Inc.,8717 Washington Blvd,USA,atlas media inc,atlas media,8717 washington boulevard,united states,s2,S1_040
+S2_144,Atlas Media Inc.,3986 Pine St,FR,atlas media inc,atlas media,3986 pine street,france,s2,S1_040
+S3_021,Atlas Financial Inc.,6758 Washington Boulevard,DE,atlas financial inc,atlas financial,6758 washington boulevard,germany,s3,S1_040
+S3_088,Atlas Financial Ltd,7498 Broadway,DE,atlas financial ltd,atlas financial,7498 broadway,germany,s3,S1_040
+S2_060,Atlas Labs Co,4497 Oak Rd,JPN,atlas labs co,atlas labs,4497 oak road,japan,s2,S1_040
+S2_086,Atlas Industries Ltd,5103 Commercial Dr,FR,atlas industries ltd,atlas industries,5103 commercial drive,france,s2,S1_040
+S3_073,Atlas Financial Corp,2517 Commercial Dr,USA,atlas financial corp,atlas financial,2517 commercial drive,united states,s3,S1_040
+S2_116,Atlas Media Ltd,4093 Washington Blvd,FR,atlas media ltd,atlas media,4093 washington boulevard,france,s2,S1_040
+S2_120,Atlas Tech Corp,4991 Commercial Dr,FR,atlas tech corp,atlas tech,4991 commercial drive,france,s2,S1_040
+S3_010,Atlas Tech Corp,5268 Pine Street,CA,atlas tech corp,atlas tech,5268 pine street,canada,s3,S1_040
+S3_101,Atlas Labs Corp,574 Park Ave,CA,atlas labs corp,atlas labs,574 park avenue,canada,s3,S1_040
+S3_121,Atlas Labs Corp,1543 Pine St,JPN,atlas labs corp,atlas labs,1543 pine street,japan,s3,S1_040
+S2_081,Atlas Logistics Ltd,8156 Market St,FR,atlas logistics ltd,atlas logistics,8156 market street,france,s2,S1_040
+S2_114,Atlas Logistics Ltd,2024 Park Ave,DE,atlas logistics ltd,atlas logistics,2024 park avenue,germany,s2,S1_040
+S3_020,Atlas Logistics LLC,3239 Broadway,FR,atlas logistics llc,atlas logistics,3239 broadway,france,s3,S1_040
+S3_058,Atlas Group Corp,1875 Broadway,DE,atlas group corp,atlas,1875 broadway,germany,s3,S1_040
+S3_134,Atlas Energy Inc.,1579 Commercial Dr,FR,atlas energy inc,atlas energy,1579 commercial drive,france,s3,S1_040
+S2_058,Delta Labs Co,4525 Commercial Dr,JPN,delta labs co,delta labs,4525 commercial drive,japan,s2,S1_041
+S3_043,Delta Labs Ltd,1152 Pine Street,DE,delta labs ltd,delta labs,1152 pine street,germany,s3,S1_041
+S3_104,Delta Labs Group,602 Market St,AUS,delta labs group,delta labs,602 market street,australia,s3,S1_041
+S2_081,Atlas Logistics Ltd,8156 Market St,FR,atlas logistics ltd,atlas logistics,8156 market street,france,s2,S1_044
+S2_114,Atlas Logistics Ltd,2024 Park Ave,DE,atlas logistics ltd,atlas logistics,2024 park avenue,germany,s2,S1_044
+S3_020,Atlas Logistics LLC,3239 Broadway,FR,atlas logistics llc,atlas logistics,3239 broadway,france,s3,S1_044
+S2_066,Beta Financial Group,6758 Washington Blvd,FR,beta financial group,beta financial,6758 washington boulevard,france,s2,S1_047
+S3_021,Atlas Financial Inc.,6758 Washington Boulevard,DE,atlas financial inc,atlas financial,6758 washington boulevard,germany,s3,S1_047
+S3_073,Atlas Financial Corp,2517 Commercial Dr,USA,atlas financial corp,atlas financial,2517 commercial drive,united states,s3,S1_047
+S3_088,Atlas Financial Ltd,7498 Broadway,DE,atlas financial ltd,atlas financial,7498 broadway,germany,s3,S1_047
+S3_022,Solar Labs Co,1098 Oak Road,USA,solar labs co,solar labs,1098 oak road,united states,s3,S1_050
+S2_026,Solar Financial Co,9840 Main Street,FR,solar financial co,solar financial,9840 main street,france,s2,S1_050
+S2_036,Solar Solutions Ltd,6411 Commercial Dr,UK,solar solutions ltd,solar solutions,6411 commercial drive,united kingdom,s2,S1_050
+S2_051,Solar Tech Corp,9533 Pine St,DE,solar tech corp,solar tech,9533 pine street,germany,s2,S1_050
+S2_054,Solar Capital Inc.,5788 Lincoln Way,DE,solar capital inc,solar capital,5788 lincoln way,germany,s2,S1_050
+S2_083,Solar Energy Inc.,4166 Market St,FR,solar energy inc,solar energy,4166 market street,france,s2,S1_050
+S2_133,Solar Logistics LLC,4808 Broadway,AUS,solar logistics llc,solar logistics,4808 broadway,australia,s2,S1_050
+S3_023,Solar Financial Co,9840 Main Street,FR,solar financial co,solar financial,9840 main street,france,s3,S1_050
+S3_032,Solar Solutions Inc.,6411 Commercial Dr,UK,solar solutions inc,solar solutions,6411 commercial drive,united kingdom,s3,S1_050
+S3_085,Solar Solutions Group,5427 Pine St,FR,solar solutions group,solar solutions,5427 pine street,france,s3,S1_050
+S3_109,Solar Media Ltd,4575 Broadway,JPN,solar media ltd,solar media,4575 broadway,japan,s3,S1_050
+S3_119,Solar Systems Group,6943 Fifth Ave,USA,solar systems group,solar systems,6943 fifth avenue,united states,s3,S1_050
+S3_137,Solar Media Co,2571 Main St,DE,solar media co,solar media,2571 main street,germany,s3,S1_050
+S3_142,Solar Tech Holdings,5582 Market St,CA,solar tech holdings,solar tech,5582 market street,canada,s3,S1_050
+S2_025,Beacon Ventures Inc.,2679 Main Street,FR,beacon ventures inc,beacon ventures,2679 main street,france,s2,S1_051
+S2_020,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s2,S1_051
+S2_045,Beacon Systems Group,7006 Fifth Avenue,JPN,beacon systems group,beacon systems,7006 fifth avenue,japan,s2,S1_051
+S2_059,Beacon Solutions Holdings,8021 Washington Blvd,DE,beacon solutions holdings,beacon solutions,8021 washington boulevard,germany,s2,S1_051
+S2_098,Beacon Systems Group,5380 Commercial Dr,CA,beacon systems group,beacon systems,5380 commercial drive,canada,s2,S1_051
+S2_115,Beacon Labs Corp,8437 Fifth Ave,DE,beacon labs corp,beacon labs,8437 fifth avenue,germany,s2,S1_051
+S2_118,Beacon Health Holdings,1243 Fifth Ave,JPN,beacon health holdings,beacon health,1243 fifth avenue,japan,s2,S1_051
+S3_014,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s3,S1_051
+S3_083,Beacon Media Inc.,1423 Oak Rd,FR,beacon media inc,beacon media,1423 oak road,france,s3,S1_051
+S3_141,Beacon Energy Ltd,6797 Oak Rd,AUS,beacon energy ltd,beacon energy,6797 oak road,australia,s3,S1_051
+S2_027,Quantum Retail Group,3446 Oak Road,UK,quantum retail group,quantum retail,3446 oak road,united kingdom,s2,S1_054
+S3_052,Quantum Retail Co,8321 Fifth Ave,JPN,quantum retail co,quantum retail,8321 fifth avenue,japan,s3,S1_054
+S2_010,Quantum Industries Ltd,9295 Broadway,AUS,quantum industries ltd,quantum industries,9295 broadway,australia,s2,S1_054
+S2_015,Quantum Solutions LLC,9677 Pine Street,FR,quantum solutions llc,quantum solutions,9677 pine street,france,s2,S1_054
+S2_016,Quantum Media Ltd,871 Market Street,UK,quantum media ltd,quantum media,871 market street,united kingdom,s2,S1_054
+S2_037,Quantum Capital Corp,3328 Oak Road,DE,quantum capital corp,quantum capital,3328 oak road,germany,s2,S1_054
+S2_070,Quantum Solutions Corp,7071 Lincoln Way,CA,quantum solutions corp,quantum solutions,7071 lincoln way,canada,s2,S1_054
+S2_097,Quantum Media Ltd,1417 Commercial Dr,USA,quantum media ltd,quantum media,1417 commercial drive,united states,s2,S1_054
+S2_111,Quantum Health Corp,7278 Washington Blvd,USA,quantum health corp,quantum health,7278 washington boulevard,united states,s2,S1_054
+S2_113,Quantum Tech Co,6784 Market St,UK,quantum tech co,quantum tech,6784 market street,united kingdom,s2,S1_054
+S3_006,Quantum Industries LLC,9295 Broadway,AUS,quantum industries llc,quantum industries,9295 broadway,australia,s3,S1_054
+S3_011,Quantum Media Co,871 Market Street,UK,quantum media co,quantum media,871 market street,united kingdom,s3,S1_054
+S3_013,Quantum Logistics Holdings,4989 Lincoln Way,FR,quantum logistics holdings,quantum logistics,4989 lincoln way,france,s3,S1_054
+S3_033,Quantum Capital Co,3328 Oak Road,DE,quantum capital co,quantum capital,3328 oak road,germany,s3,S1_054
+S3_080,Quantum Financial Co,810 Lincoln Way,CA,quantum financial co,quantum financial,810 lincoln way,canada,s3,S1_054
+S3_086,Quantum Energy Ltd,8382 Commercial Dr,DE,quantum energy ltd,quantum energy,8382 commercial drive,germany,s3,S1_054
+S3_105,Quantum Financial Ltd,6978 Washington Blvd,CA,quantum financial ltd,quantum financial,6978 washington boulevard,canada,s3,S1_054
+S3_110,Quantum Logistics Corp,7143 Market St,CA,quantum logistics corp,quantum logistics,7143 market street,canada,s3,S1_054
+S3_135,Quantum Systems Ltd,9608 Lincoln Way,JPN,quantum systems ltd,quantum systems,9608 lincoln way,japan,s3,S1_054
+S3_140,Quantum Solutions Co,2700 Oak Rd,CA,quantum solutions co,quantum solutions,2700 oak road,canada,s3,S1_054
+S2_028,Terra Energy Inc.,5280 Market Street,USA,terra energy inc,terra energy,5280 market street,united states,s2,S1_055
+S2_140,Terra Energy Ltd,4283 Main St,JPN,terra energy ltd,terra energy,4283 main street,japan,s2,S1_055
+S3_024,Terra Energy Inc.,5280 Market Street,USA,terra energy inc,terra energy,5280 market street,united states,s3,S1_055
+S3_080,Quantum Financial Co,810 Lincoln Way,CA,quantum financial co,quantum financial,810 lincoln way,canada,s3,S1_056
+S3_105,Quantum Financial Ltd,6978 Washington Blvd,CA,quantum financial ltd,quantum financial,6978 washington boulevard,canada,s3,S1_056
+S2_010,Quantum Industries Ltd,9295 Broadway,AUS,quantum industries ltd,quantum industries,9295 broadway,australia,s2,S1_056
+S2_015,Quantum Solutions LLC,9677 Pine Street,FR,quantum solutions llc,quantum solutions,9677 pine street,france,s2,S1_056
+S2_016,Quantum Media Ltd,871 Market Street,UK,quantum media ltd,quantum media,871 market street,united kingdom,s2,S1_056
+S2_027,Quantum Retail Group,3446 Oak Road,UK,quantum retail group,quantum retail,3446 oak road,united kingdom,s2,S1_056
+S2_037,Quantum Capital Corp,3328 Oak Road,DE,quantum capital corp,quantum capital,3328 oak road,germany,s2,S1_056
+S2_070,Quantum Solutions Corp,7071 Lincoln Way,CA,quantum solutions corp,quantum solutions,7071 lincoln way,canada,s2,S1_056
+S2_097,Quantum Media Ltd,1417 Commercial Dr,USA,quantum media ltd,quantum media,1417 commercial drive,united states,s2,S1_056
+S2_111,Quantum Health Corp,7278 Washington Blvd,USA,quantum health corp,quantum health,7278 washington boulevard,united states,s2,S1_056
+S2_113,Quantum Tech Co,6784 Market St,UK,quantum tech co,quantum tech,6784 market street,united kingdom,s2,S1_056
+S3_006,Quantum Industries LLC,9295 Broadway,AUS,quantum industries llc,quantum industries,9295 broadway,australia,s3,S1_056
+S3_011,Quantum Media Co,871 Market Street,UK,quantum media co,quantum media,871 market street,united kingdom,s3,S1_056
+S3_013,Quantum Logistics Holdings,4989 Lincoln Way,FR,quantum logistics holdings,quantum logistics,4989 lincoln way,france,s3,S1_056
+S3_033,Quantum Capital Co,3328 Oak Road,DE,quantum capital co,quantum capital,3328 oak road,germany,s3,S1_056
+S3_052,Quantum Retail Co,8321 Fifth Ave,JPN,quantum retail co,quantum retail,8321 fifth avenue,japan,s3,S1_056
+S3_086,Quantum Energy Ltd,8382 Commercial Dr,DE,quantum energy ltd,quantum energy,8382 commercial drive,germany,s3,S1_056
+S3_110,Quantum Logistics Corp,7143 Market St,CA,quantum logistics corp,quantum logistics,7143 market street,canada,s3,S1_056
+S3_135,Quantum Systems Ltd,9608 Lincoln Way,JPN,quantum systems ltd,quantum systems,9608 lincoln way,japan,s3,S1_056
+S3_140,Quantum Solutions Co,2700 Oak Rd,CA,quantum solutions co,quantum solutions,2700 oak road,canada,s3,S1_056
+S2_020,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s2,S1_057
+S2_025,Beacon Ventures Inc.,2679 Main Street,FR,beacon ventures inc,beacon ventures,2679 main street,france,s2,S1_057
+S2_045,Beacon Systems Group,7006 Fifth Avenue,JPN,beacon systems group,beacon systems,7006 fifth avenue,japan,s2,S1_057
+S2_059,Beacon Solutions Holdings,8021 Washington Blvd,DE,beacon solutions holdings,beacon solutions,8021 washington boulevard,germany,s2,S1_057
+S2_098,Beacon Systems Group,5380 Commercial Dr,CA,beacon systems group,beacon systems,5380 commercial drive,canada,s2,S1_057
+S2_115,Beacon Labs Corp,8437 Fifth Ave,DE,beacon labs corp,beacon labs,8437 fifth avenue,germany,s2,S1_057
+S2_118,Beacon Health Holdings,1243 Fifth Ave,JPN,beacon health holdings,beacon health,1243 fifth avenue,japan,s2,S1_057
+S3_014,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s3,S1_057
+S3_083,Beacon Media Inc.,1423 Oak Rd,FR,beacon media inc,beacon media,1423 oak road,france,s3,S1_057
+S3_141,Beacon Energy Ltd,6797 Oak Rd,AUS,beacon energy ltd,beacon energy,6797 oak road,australia,s3,S1_057
+S2_065,Apex Energy Co,266 Lincoln Way,UK,apex energy co,apex energy,266 lincoln way,united kingdom,s2,S1_058
+S2_135,Apex Energy Inc.,853 Oak Rd,JPN,apex energy inc,apex energy,853 oak road,japan,s2,S1_058
+S2_095,Apex Ventures Co,4828 Washington Blvd,USA,apex ventures co,apex ventures,4828 washington boulevard,united states,s2,S1_058
+S2_041,Apex Ventures Corp,7473 Fifth Avenue,JPN,apex ventures corp,apex ventures,7473 fifth avenue,japan,s2,S1_058
+S3_015,Apex Media Co,1233 Lincoln Way,JPN,apex media co,apex media,1233 lincoln way,japan,s3,S1_058
+S3_047,Apex Health Co,7757 Park Avenue,FR,apex health co,apex health,7757 park avenue,france,s3,S1_058
+S2_074,Apex Media Corp,9759 Lincoln Way,FR,apex media corp,apex media,9759 lincoln way,france,s2,S1_058
+S3_126,Apex Ventures Group,2519 Broadway,USA,apex ventures group,apex ventures,2519 broadway,united states,s3,S1_058
+S3_144,Apex Ventures Group,9974 Park Ave,CA,apex ventures group,apex ventures,9974 park avenue,canada,s3,S1_058
+S2_038,Apex Health Corp,9424 Fifth Avenue,DE,apex health corp,apex health,9424 fifth avenue,germany,s2,S1_058
+S3_016,Apex Financial Co,5207 Pine Street,AUS,apex financial co,apex financial,5207 pine street,australia,s3,S1_058
+S3_116,Apex Financial Co,9254 Oak Rd,USA,apex financial co,apex financial,9254 oak road,united states,s3,S1_058
+S3_040,Apex Ventures Holdings,7473 Fifth Avenue,JPN,apex ventures holdings,apex ventures,7473 fifth avenue,japan,s3,S1_058
+S2_069,Apex Financial Corp,9628 Oak Rd,DE,apex financial corp,apex financial,9628 oak road,germany,s2,S1_058
+S3_147,Apex Logistics Corp,9257 Pine St,AUS,apex logistics corp,apex logistics,9257 pine street,australia,s3,S1_058
+S2_125,Apex Media Group,6346 Pine St,AUS,apex media group,apex media,6346 pine street,australia,s2,S1_058
+S3_051,Apex Systems LLC,3389 Park Ave,JPN,apex systems llc,apex systems,3389 park avenue,japan,s3,S1_058
+S3_115,Apex Systems LLC,2216 Pine St,FR,apex systems llc,apex systems,2216 pine street,france,s3,S1_058
+S2_050,Apex Labs Inc.,2783 Fifth Ave,USA,apex labs inc,apex labs,2783 fifth avenue,united states,s2,S1_058
+S3_136,Apex Tech Ltd,9466 Broadway,CA,apex tech ltd,apex tech,9466 broadway,canada,s3,S1_058
+S2_009,Apex Solutions LLC,9774 Pine Street,USA,apex solutions llc,apex solutions,9774 pine street,united states,s2,S1_060
+S2_073,Apex Solutions Holdings,3133 Broadway,UK,apex solutions holdings,apex solutions,3133 broadway,united kingdom,s2,S1_060
+S3_025,Apex Solutions LLC,4562 Fifth Avenue,FR,apex solutions llc,apex solutions,4562 fifth avenue,france,s3,S1_060
+S2_132,Terra Labs Holdings,8094 Lincoln Way,USA,terra labs holdings,terra labs,8094 lincoln way,united states,s2,S1_062
+S2_121,Terra Media Holdings,2534 Washington Blvd,FR,terra media holdings,terra media,2534 washington boulevard,france,s2,S1_062
+S2_146,Terra Systems Corp,232 Commercial Dr,JPN,terra systems corp,terra systems,232 commercial drive,japan,s2,S1_062
+S2_030,Terra Systems Group,4633 Main Street,USA,terra systems group,terra systems,4633 main street,united states,s2,S1_062
+S3_070,Terra Industries Inc.,928 Oak Rd,UK,terra industries inc,terra industries,928 oak road,united kingdom,s3,S1_062
+S2_048,Terra Logistics Co,3671 Washington Blvd,AUS,terra logistics co,terra logistics,3671 washington boulevard,australia,s2,S1_062
+S3_130,Terra Industries Group,5395 Oak Rd,UK,terra industries group,terra industries,5395 oak road,united kingdom,s3,S1_062
+S3_108,Terra Logistics Corp,7359 Pine St,DE,terra logistics corp,terra logistics,7359 pine street,germany,s3,S1_062
+S2_008,Terra Logistics Group,4606 Broadway,UK,terra logistics group,terra logistics,4606 broadway,united kingdom,s2,S1_062
+S3_060,Terra Logistics Group,7706 Fifth Ave,AUS,terra logistics group,terra logistics,7706 fifth avenue,australia,s3,S1_062
+S3_049,Terra Tech Corp,7322 Main St,FR,terra tech corp,terra tech,7322 main street,france,s3,S1_062
+S3_129,Terra Media Ltd,9336 Commercial Dr,DE,terra media ltd,terra media,9336 commercial drive,germany,s3,S1_062
+S3_009,Terra Logistics Ltd,2903 Lincoln Way,AUS,terra logistics ltd,terra logistics,2903 lincoln way,australia,s3,S1_062
+S2_055,Terra Retail Inc.,8389 Oak Rd,USA,terra retail inc,terra retail,8389 oak road,united states,s2,S1_062
+S2_140,Terra Energy Ltd,4283 Main St,JPN,terra energy ltd,terra energy,4283 main street,japan,s2,S1_062
+S3_139,Terra Health Inc.,4159 Washington Blvd,DE,terra health inc,terra health,4159 washington boulevard,germany,s3,S1_062
+S2_018,Terra Labs Corp,8897 Fifth Avenue,JPN,terra labs corp,terra labs,8897 fifth avenue,japan,s2,S1_062
+S2_029,Terra Group Inc.,4425 Lincoln Way,DE,terra group inc,terra,4425 lincoln way,germany,s2,S1_062
+S2_082,Terra Group Inc.,2585 Park Ave,JPN,terra group inc,terra,2585 park avenue,japan,s2,S1_062
+S3_149,Terra Group Ltd,8431 Oak Rd,USA,terra group ltd,terra,8431 oak road,united states,s3,S1_062
+S3_042,Gamma Retail Group,8949 Market Street,UK,gamma retail group,gamma retail,8949 market street,united kingdom,s3,S1_063
+S2_012,Gamma Group LLC,9225 Broadway,AUS,gamma group llc,gamma,9225 broadway,australia,s2,S1_063
+S2_031,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_063
+S2_107,Gamma Retail Inc.,6722 Lincoln Way,JPN,gamma retail inc,gamma retail,6722 lincoln way,japan,s2,S1_063
+S3_096,Gamma Retail Inc.,9568 Lincoln Way,UK,gamma retail inc,gamma retail,9568 lincoln way,united kingdom,s3,S1_063
+S2_077,Gamma Tech Inc.,9166 Fifth Ave,AUS,gamma tech inc,gamma tech,9166 fifth avenue,australia,s2,S1_063
+S3_031,Gamma Tech Ltd,9874 Pine Street,CA,gamma tech ltd,gamma tech,9874 pine street,canada,s3,S1_063
+S3_112,Gamma Tech LLC,6575 Commercial Dr,USA,gamma tech llc,gamma tech,6575 commercial drive,united states,s3,S1_063
+S3_133,Gamma Media Ltd,716 Main St,CA,gamma media ltd,gamma media,716 main street,canada,s3,S1_063
+S2_143,Gamma Media Holdings,5049 Broadway,DE,gamma media holdings,gamma media,5049 broadway,germany,s2,S1_063
+S3_074,Gamma Ventures LLC,2229 Lincoln Way,CA,gamma ventures llc,gamma ventures,2229 lincoln way,canada,s3,S1_063
+S2_035,Gamma Ventures Holdings,4673 Oak Road,AUS,gamma ventures holdings,gamma ventures,4673 oak road,australia,s2,S1_063
+S2_075,Gamma Logistics Holdings,3280 Fifth Ave,UK,gamma logistics holdings,gamma logistics,3280 fifth avenue,united kingdom,s2,S1_063
+S2_024,Gamma Systems Inc.,9205 Washington Boulevard,UK,gamma systems inc,gamma systems,9205 washington boulevard,united kingdom,s2,S1_063
+S3_030,Gamma Ventures Co,4673 Oak Road,AUS,gamma ventures co,gamma ventures,4673 oak road,australia,s3,S1_063
+S3_045,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s3,S1_063
+S3_029,Gamma Ventures Corp,3828 Broadway,USA,gamma ventures corp,gamma ventures,3828 broadway,united states,s3,S1_063
+S3_036,Gamma Financial Ltd,9602 Commercial Dr,AUS,gamma financial ltd,gamma financial,9602 commercial drive,australia,s3,S1_063
+S3_132,Gamma Industries Inc.,5866 Lincoln Way,USA,gamma industries inc,gamma industries,5866 lincoln way,united states,s3,S1_063
+S2_043,Gamma Capital LLC,6965 Lincoln Way,AUS,gamma capital llc,gamma capital,6965 lincoln way,australia,s2,S1_063
+S3_106,Delta Retail Corp,5414 Commercial Dr,FR,delta retail corp,delta retail,5414 commercial drive,france,s3,S1_065
+S2_138,Delta Logistics Co,6367 Commercial Dr,AUS,delta logistics co,delta logistics,6367 commercial drive,australia,s2,S1_065
+S2_033,Delta Tech Group,6074 Main Street,CA,delta tech group,delta tech,6074 main street,canada,s2,S1_065
+S2_058,Delta Labs Co,4525 Commercial Dr,JPN,delta labs co,delta labs,4525 commercial drive,japan,s2,S1_065
+S3_055,Delta Capital LLC,6611 Lincoln Way,CA,delta capital llc,delta capital,6611 lincoln way,canada,s3,S1_065
+S2_127,Delta Solutions Co,5539 Market St,JPN,delta solutions co,delta solutions,5539 market street,japan,s2,S1_065
+S3_048,Delta Tech Holdings,6311 Oak Road,UK,delta tech holdings,delta tech,6311 oak road,united kingdom,s3,S1_065
+S3_027,Delta Capital Holdings,3000 Pine Street,USA,delta capital holdings,delta capital,3000 pine street,united states,s3,S1_065
+S3_071,Delta Capital Co,3462 Market St,JPN,delta capital co,delta capital,3462 market street,japan,s3,S1_065
+S3_127,Delta Energy LLC,2942 Commercial Dr,UK,delta energy llc,delta energy,2942 commercial drive,united kingdom,s3,S1_065
+S2_117,Delta Systems LLC,9920 Lincoln Way,AUS,delta systems llc,delta systems,9920 lincoln way,australia,s2,S1_065
+S3_103,Delta Ventures LLC,9378 Pine St,USA,delta ventures llc,delta ventures,9378 pine street,united states,s3,S1_065
+S3_043,Delta Labs Ltd,1152 Pine Street,DE,delta labs ltd,delta labs,1152 pine street,germany,s3,S1_065
+S2_094,Delta Logistics Inc.,2818 Fifth Ave,FR,delta logistics inc,delta logistics,2818 fifth avenue,france,s2,S1_065
+S3_084,Delta Logistics LLC,4605 Commercial Dr,AUS,delta logistics llc,delta logistics,4605 commercial drive,australia,s3,S1_065
+S3_091,Delta Group Ltd,1199 Market St,JPN,delta group ltd,delta,1199 market street,japan,s3,S1_065
+S3_097,Delta Group Ltd,3774 Market St,CA,delta group ltd,delta,3774 market street,canada,s3,S1_065
+S3_053,Delta Energy Holdings,7994 Fifth Ave,AUS,delta energy holdings,delta energy,7994 fifth avenue,australia,s3,S1_065
+S2_019,Delta Solutions Inc.,8789 Main Street,FR,delta solutions inc,delta solutions,8789 main street,france,s2,S1_065
+S2_089,Delta Solutions Inc.,2664 Main St,DE,delta solutions inc,delta solutions,2664 main street,germany,s2,S1_065
+S2_034,Beta Retail Holdings,9273 Pine Street,FR,beta retail holdings,beta retail,9273 pine street,france,s2,S1_066
+S3_090,Beta Retail Ltd,5220 Fifth Ave,CA,beta retail ltd,beta retail,5220 fifth avenue,canada,s3,S1_066
+S2_017,Beta Systems Holdings,9863 Washington Boulevard,FR,beta systems holdings,beta systems,9863 washington boulevard,france,s2,S1_066
+S3_123,Beta Systems Holdings,5183 Oak Rd,UK,beta systems holdings,beta systems,5183 oak road,united kingdom,s3,S1_066
+S3_138,Beta Capital Holdings,5726 Market St,FR,beta capital holdings,beta capital,5726 market street,france,s3,S1_066
+S3_038,Beta Media Ltd,9531 Broadway,AUS,beta media ltd,beta media,9531 broadway,australia,s3,S1_066
+S3_092,Beta Logistics Ltd,1682 Oak Rd,JPN,beta logistics ltd,beta logistics,1682 oak road,japan,s3,S1_066
+S2_032,Beta Labs LLC,9038 Main Street,JPN,beta labs llc,beta labs,9038 main street,japan,s2,S1_066
+S3_026,Beta Labs Ltd,9038 Main Street,JPN,beta labs ltd,beta labs,9038 main street,japan,s3,S1_066
+S3_039,Beta Media Co,7712 Lincoln Way,FR,beta media co,beta media,7712 lincoln way,france,s3,S1_066
+S3_125,Beta Solutions Co,3276 Oak Rd,CA,beta solutions co,beta solutions,3276 oak road,canada,s3,S1_066
+S3_145,Beta Industries Group,2417 Oak Rd,CA,beta industries group,beta industries,2417 oak road,canada,s3,S1_066
+S2_093,Beta Solutions LLC,2541 Fifth Ave,JPN,beta solutions llc,beta solutions,2541 fifth avenue,japan,s2,S1_066
+S3_122,Beta Financial Ltd,9748 Pine St,FR,beta financial ltd,beta financial,9748 pine street,france,s3,S1_066
+S3_057,Beta Media Corp,4395 Commercial Dr,DE,beta media corp,beta media,4395 commercial drive,germany,s3,S1_066
+S2_066,Beta Financial Group,6758 Washington Blvd,FR,beta financial group,beta financial,6758 washington boulevard,france,s2,S1_066
+S2_134,Beta Systems Inc.,1746 Washington Blvd,UK,beta systems inc,beta systems,1746 washington boulevard,united kingdom,s2,S1_066
+S3_012,Beta Systems Inc.,9863 Washington Boulevard,FR,beta systems inc,beta systems,9863 washington boulevard,france,s3,S1_066
+S3_056,Beta Capital Ltd,328 Fifth Ave,FR,beta capital ltd,beta capital,328 fifth avenue,france,s3,S1_066
+S3_143,Beta Solutions Group,6433 Fifth Ave,CA,beta solutions group,beta solutions,6433 fifth avenue,canada,s3,S1_066
+S2_045,Beacon Systems Group,7006 Fifth Avenue,JPN,beacon systems group,beacon systems,7006 fifth avenue,japan,s2,S1_068
+S2_098,Beacon Systems Group,5380 Commercial Dr,CA,beacon systems group,beacon systems,5380 commercial drive,canada,s2,S1_068
+S2_020,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s2,S1_068
+S2_025,Beacon Ventures Inc.,2679 Main Street,FR,beacon ventures inc,beacon ventures,2679 main street,france,s2,S1_068
+S2_059,Beacon Solutions Holdings,8021 Washington Blvd,DE,beacon solutions holdings,beacon solutions,8021 washington boulevard,germany,s2,S1_068
+S2_115,Beacon Labs Corp,8437 Fifth Ave,DE,beacon labs corp,beacon labs,8437 fifth avenue,germany,s2,S1_068
+S2_118,Beacon Health Holdings,1243 Fifth Ave,JPN,beacon health holdings,beacon health,1243 fifth avenue,japan,s2,S1_068
+S3_014,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s3,S1_068
+S3_083,Beacon Media Inc.,1423 Oak Rd,FR,beacon media inc,beacon media,1423 oak road,france,s3,S1_068
+S3_141,Beacon Energy Ltd,6797 Oak Rd,AUS,beacon energy ltd,beacon energy,6797 oak road,australia,s3,S1_068
+S3_068,Nova Tech Ltd,4620 Broadway,USA,nova tech ltd,nova tech,4620 broadway,united states,s3,S1_072
+S2_057,Nova Group Holdings,7632 Park Ave,DE,nova group holdings,nova,7632 park avenue,germany,s2,S1_072
+S2_064,Nova Capital Corp,5676 Fifth Ave,FR,nova capital corp,nova capital,5676 fifth avenue,france,s2,S1_072
+S2_071,Nova Labs Ltd,4538 Fifth Ave,CA,nova labs ltd,nova labs,4538 fifth avenue,canada,s2,S1_072
+S2_076,Nova Health Corp,331 Lincoln Way,UK,nova health corp,nova health,331 lincoln way,united kingdom,s2,S1_072
+S2_080,Nova Health Inc.,4236 Washington Blvd,USA,nova health inc,nova health,4236 washington boulevard,united states,s2,S1_072
+S2_104,Nova Retail Group,1813 Park Ave,CA,nova retail group,nova retail,1813 park avenue,canada,s2,S1_072
+S2_131,Nova Ventures Group,8842 Pine St,CA,nova ventures group,nova ventures,8842 pine street,canada,s2,S1_072
+S2_145,Nova Industries Corp,4937 Main St,JPN,nova industries corp,nova industries,4937 main street,japan,s2,S1_072
+S2_149,Nova Financial Group,3215 Commercial Dr,CA,nova financial group,nova financial,3215 commercial drive,canada,s2,S1_072
+S3_034,Nova Group Corp,2141 Fifth Avenue,FR,nova group corp,nova,2141 fifth avenue,france,s3,S1_072
+S3_050,Nova Labs LLC,1576 Fifth Ave,CA,nova labs llc,nova labs,1576 fifth avenue,canada,s3,S1_072
+S3_066,Nova Financial Ltd,7385 Broadway,JPN,nova financial ltd,nova financial,7385 broadway,japan,s3,S1_072
+S3_067,Nova Logistics Group,6118 Lincoln Way,AUS,nova logistics group,nova logistics,6118 lincoln way,australia,s3,S1_072
+S3_076,Nova Capital Holdings,3998 Commercial Dr,CA,nova capital holdings,nova capital,3998 commercial drive,canada,s3,S1_072
+S3_089,Nova Ventures Ltd,6632 Pine St,AUS,nova ventures ltd,nova ventures,6632 pine street,australia,s3,S1_072
+S3_094,Nova Group Inc.,6830 Oak Rd,JPN,nova group inc,nova,6830 oak road,japan,s3,S1_072
+S3_124,Nova Capital LLC,1351 Lincoln Way,AUS,nova capital llc,nova capital,1351 lincoln way,australia,s3,S1_072
+S3_150,Nova Energy LLC,3609 Oak Rd,JPN,nova energy llc,nova energy,3609 oak road,japan,s3,S1_072
+S2_105,Omni Labs Ltd,4822 Pine St,JPN,omni labs ltd,omni labs,4822 pine street,japan,s2,S1_077
+S3_035,Omni Labs Group,9183 Park Avenue,UK,omni labs group,omni labs,9183 park avenue,united kingdom,s3,S1_077
+S2_011,Omni Logistics Group,4903 Commercial Dr,JPN,omni logistics group,omni logistics,4903 commercial drive,japan,s2,S1_077
+S2_124,Omni Financial Holdings,6830 Main St,CA,omni financial holdings,omni financial,6830 main street,canada,s2,S1_077
+S3_061,Omni Logistics LLC,842 Main St,CA,omni logistics llc,omni logistics,842 main street,canada,s3,S1_077
+S3_063,Omni Media Corp,8950 Pine St,FR,omni media corp,omni media,8950 pine street,france,s3,S1_077
+S3_078,Omni Solutions Inc.,1141 Washington Blvd,DE,omni solutions inc,omni solutions,1141 washington boulevard,germany,s3,S1_077
+S3_082,Omni Systems Group,1868 Washington Blvd,AUS,omni systems group,omni systems,1868 washington boulevard,australia,s3,S1_077
+S3_117,Omni Ventures Group,793 Pine St,USA,omni ventures group,omni ventures,793 pine street,united states,s3,S1_077
+S3_120,Omni Tech Corp,2915 Commercial Dr,DE,omni tech corp,omni tech,2915 commercial drive,germany,s3,S1_077
+S3_036,Gamma Financial Ltd,9602 Commercial Dr,AUS,gamma financial ltd,gamma financial,9602 commercial drive,australia,s3,S1_079
+S3_045,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s3,S1_079
+S2_043,Gamma Capital LLC,6965 Lincoln Way,AUS,gamma capital llc,gamma capital,6965 lincoln way,australia,s2,S1_079
+S3_031,Gamma Tech Ltd,9874 Pine Street,CA,gamma tech ltd,gamma tech,9874 pine street,canada,s3,S1_079
+S2_049,Gamma Capital Corp,2849 Commercial Dr,FR,gamma capital corp,gamma capital,2849 commercial drive,france,s2,S1_079
+S3_133,Gamma Media Ltd,716 Main St,CA,gamma media ltd,gamma media,716 main street,canada,s3,S1_079
+S3_030,Gamma Ventures Co,4673 Oak Road,AUS,gamma ventures co,gamma ventures,4673 oak road,australia,s3,S1_079
+S3_112,Gamma Tech LLC,6575 Commercial Dr,USA,gamma tech llc,gamma tech,6575 commercial drive,united states,s3,S1_079
+S3_029,Gamma Ventures Corp,3828 Broadway,USA,gamma ventures corp,gamma ventures,3828 broadway,united states,s3,S1_079
+S2_031,Gamma Health Inc.,7339 Lincoln Way,AUS,gamma health inc,gamma health,7339 lincoln way,australia,s2,S1_079
+S3_074,Gamma Ventures LLC,2229 Lincoln Way,CA,gamma ventures llc,gamma ventures,2229 lincoln way,canada,s3,S1_079
+S2_077,Gamma Tech Inc.,9166 Fifth Ave,AUS,gamma tech inc,gamma tech,9166 fifth avenue,australia,s2,S1_079
+S2_012,Gamma Group LLC,9225 Broadway,AUS,gamma group llc,gamma,9225 broadway,australia,s2,S1_079
+S2_143,Gamma Media Holdings,5049 Broadway,DE,gamma media holdings,gamma media,5049 broadway,germany,s2,S1_079
+S2_107,Gamma Retail Inc.,6722 Lincoln Way,JPN,gamma retail inc,gamma retail,6722 lincoln way,japan,s2,S1_079
+S3_096,Gamma Retail Inc.,9568 Lincoln Way,UK,gamma retail inc,gamma retail,9568 lincoln way,united kingdom,s3,S1_079
+S2_024,Gamma Systems Inc.,9205 Washington Boulevard,UK,gamma systems inc,gamma systems,9205 washington boulevard,united kingdom,s2,S1_079
+S3_114,Gamma Energy Corp,2065 Main St,DE,gamma energy corp,gamma energy,2065 main street,germany,s3,S1_079
+S2_035,Gamma Ventures Holdings,4673 Oak Road,AUS,gamma ventures holdings,gamma ventures,4673 oak road,australia,s2,S1_079
+S3_042,Gamma Retail Group,8949 Market Street,UK,gamma retail group,gamma retail,8949 market street,united kingdom,s3,S1_079
+S2_039,Terra Financial Group,7852 Park Avenue,AUS,terra financial group,terra financial,7852 park avenue,australia,s2,S1_080
+S2_092,Terra Financial Corp,9763 Broadway,DE,terra financial corp,terra financial,9763 broadway,germany,s2,S1_080
+S3_037,Terra Financial Group,7852 Park Avenue,AUS,terra financial group,terra financial,7852 park avenue,australia,s3,S1_080
+S2_026,Solar Financial Co,9840 Main Street,FR,solar financial co,solar financial,9840 main street,france,s2,S1_081
+S2_036,Solar Solutions Ltd,6411 Commercial Dr,UK,solar solutions ltd,solar solutions,6411 commercial drive,united kingdom,s2,S1_081
+S2_051,Solar Tech Corp,9533 Pine St,DE,solar tech corp,solar tech,9533 pine street,germany,s2,S1_081
+S2_054,Solar Capital Inc.,5788 Lincoln Way,DE,solar capital inc,solar capital,5788 lincoln way,germany,s2,S1_081
+S2_083,Solar Energy Inc.,4166 Market St,FR,solar energy inc,solar energy,4166 market street,france,s2,S1_081
+S2_133,Solar Logistics LLC,4808 Broadway,AUS,solar logistics llc,solar logistics,4808 broadway,australia,s2,S1_081
+S3_022,Solar Labs Co,1098 Oak Road,USA,solar labs co,solar labs,1098 oak road,united states,s3,S1_081
+S3_023,Solar Financial Co,9840 Main Street,FR,solar financial co,solar financial,9840 main street,france,s3,S1_081
+S3_032,Solar Solutions Inc.,6411 Commercial Dr,UK,solar solutions inc,solar solutions,6411 commercial drive,united kingdom,s3,S1_081
+S3_085,Solar Solutions Group,5427 Pine St,FR,solar solutions group,solar solutions,5427 pine street,france,s3,S1_081
+S3_109,Solar Media Ltd,4575 Broadway,JPN,solar media ltd,solar media,4575 broadway,japan,s3,S1_081
+S3_119,Solar Systems Group,6943 Fifth Ave,USA,solar systems group,solar systems,6943 fifth avenue,united states,s3,S1_081
+S3_137,Solar Media Co,2571 Main St,DE,solar media co,solar media,2571 main street,germany,s3,S1_081
+S3_142,Solar Tech Holdings,5582 Market St,CA,solar tech holdings,solar tech,5582 market street,canada,s3,S1_081
+S3_038,Beta Media Ltd,9531 Broadway,AUS,beta media ltd,beta media,9531 broadway,australia,s3,S1_083
+S3_039,Beta Media Co,7712 Lincoln Way,FR,beta media co,beta media,7712 lincoln way,france,s3,S1_083
+S3_057,Beta Media Corp,4395 Commercial Dr,DE,beta media corp,beta media,4395 commercial drive,germany,s3,S1_083
+S2_040,Echo Health Holdings,190 Market Street,JPN,echo health holdings,echo health,190 market street,japan,s2,S1_084
+S2_014,Echo Group Group,6582 Washington Boulevard,UK,echo group group,echo,6582 washington boulevard,united kingdom,s2,S1_084
+S2_044,Echo Energy Holdings,8056 Main Street,DE,echo energy holdings,echo energy,8056 main street,germany,s2,S1_084
+S2_061,Echo Ventures Inc.,4669 Washington Blvd,UK,echo ventures inc,echo ventures,4669 washington boulevard,united kingdom,s2,S1_084
+S2_072,Echo Logistics Group,3255 Oak Rd,USA,echo logistics group,echo logistics,3255 oak road,united states,s2,S1_084
+S2_088,Echo Energy Group,1430 Park Ave,UK,echo energy group,echo energy,1430 park avenue,united kingdom,s2,S1_084
+S2_091,Echo Energy Group,4732 Washington Blvd,USA,echo energy group,echo energy,4732 washington boulevard,united states,s2,S1_084
+S2_137,Echo Solutions Ltd,9372 Park Ave,UK,echo solutions ltd,echo solutions,9372 park avenue,united kingdom,s2,S1_084
+S2_139,Echo Media Co,2444 Broadway,DE,echo media co,echo media,2444 broadway,germany,s2,S1_084
+S3_008,Echo Capital Co,1774 Market Street,DE,echo capital co,echo capital,1774 market street,germany,s3,S1_084
+S3_046,Echo Energy Ltd,8056 Main Street,DE,echo energy ltd,echo energy,8056 main street,germany,s3,S1_084
+S3_099,Echo Capital Ltd,9290 Commercial Dr,FR,echo capital ltd,echo capital,9290 commercial drive,france,s3,S1_084
+S2_009,Apex Solutions LLC,9774 Pine Street,USA,apex solutions llc,apex solutions,9774 pine street,united states,s2,S1_085
+S2_073,Apex Solutions Holdings,3133 Broadway,UK,apex solutions holdings,apex solutions,3133 broadway,united kingdom,s2,S1_085
+S3_025,Apex Solutions LLC,4562 Fifth Avenue,FR,apex solutions llc,apex solutions,4562 fifth avenue,france,s3,S1_085
+S2_060,Atlas Labs Co,4497 Oak Rd,JPN,atlas labs co,atlas labs,4497 oak road,japan,s2,S1_087
+S3_101,Atlas Labs Corp,574 Park Ave,CA,atlas labs corp,atlas labs,574 park avenue,canada,s3,S1_087
+S3_121,Atlas Labs Corp,1543 Pine St,JPN,atlas labs corp,atlas labs,1543 pine street,japan,s3,S1_087
+S2_041,Apex Ventures Corp,7473 Fifth Avenue,JPN,apex ventures corp,apex ventures,7473 fifth avenue,japan,s2,S1_088
+S2_095,Apex Ventures Co,4828 Washington Blvd,USA,apex ventures co,apex ventures,4828 washington boulevard,united states,s2,S1_088
+S3_040,Apex Ventures Holdings,7473 Fifth Avenue,JPN,apex ventures holdings,apex ventures,7473 fifth avenue,japan,s3,S1_088
+S3_126,Apex Ventures Group,2519 Broadway,USA,apex ventures group,apex ventures,2519 broadway,united states,s3,S1_088
+S3_144,Apex Ventures Group,9974 Park Ave,CA,apex ventures group,apex ventures,9974 park avenue,canada,s3,S1_088
+S2_085,Zenith Solutions Ltd,7481 Washington Blvd,CA,zenith solutions ltd,zenith solutions,7481 washington boulevard,canada,s2,S1_089
+S2_106,Zenith Solutions Inc.,7551 Market St,CA,zenith solutions inc,zenith solutions,7551 market street,canada,s2,S1_089
+S3_041,Zenith Solutions LLC,4019 Fifth Avenue,DE,zenith solutions llc,zenith solutions,4019 fifth avenue,germany,s3,S1_089
+S3_072,Zenith Solutions LLC,9707 Broadway,JPN,zenith solutions llc,zenith solutions,9707 broadway,japan,s3,S1_089
+S2_107,Gamma Retail Inc.,6722 Lincoln Way,JPN,gamma retail inc,gamma retail,6722 lincoln way,japan,s2,S1_090
+S3_042,Gamma Retail Group,8949 Market Street,UK,gamma retail group,gamma retail,8949 market street,united kingdom,s3,S1_090
+S3_096,Gamma Retail Inc.,9568 Lincoln Way,UK,gamma retail inc,gamma retail,9568 lincoln way,united kingdom,s3,S1_090
+S2_058,Delta Labs Co,4525 Commercial Dr,JPN,delta labs co,delta labs,4525 commercial drive,japan,s2,S1_091
+S3_043,Delta Labs Ltd,1152 Pine Street,DE,delta labs ltd,delta labs,1152 pine street,germany,s3,S1_091
+S3_104,Delta Labs Group,602 Market St,AUS,delta labs group,delta labs,602 market street,australia,s3,S1_091
+S2_042,Alpha Financial Inc.,6983 Pine Street,JPN,alpha financial inc,alpha financial,6983 pine street,japan,s2,S1_092
+S2_109,Alpha Financial Co,6027 Commercial Dr,JPN,alpha financial co,alpha financial,6027 commercial drive,japan,s2,S1_092
+S3_044,Alpha Financial Holdings,6983 Pine Street,JPN,alpha financial holdings,alpha financial,6983 pine street,japan,s3,S1_092
+S3_113,Alpha Financial Corp,3560 Park Ave,JPN,alpha financial corp,alpha financial,3560 park avenue,japan,s3,S1_092
+S2_020,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s2,S1_093
+S2_025,Beacon Ventures Inc.,2679 Main Street,FR,beacon ventures inc,beacon ventures,2679 main street,france,s2,S1_093
+S2_045,Beacon Systems Group,7006 Fifth Avenue,JPN,beacon systems group,beacon systems,7006 fifth avenue,japan,s2,S1_093
+S2_059,Beacon Solutions Holdings,8021 Washington Blvd,DE,beacon solutions holdings,beacon solutions,8021 washington boulevard,germany,s2,S1_093
+S2_098,Beacon Systems Group,5380 Commercial Dr,CA,beacon systems group,beacon systems,5380 commercial drive,canada,s2,S1_093
+S2_115,Beacon Labs Corp,8437 Fifth Ave,DE,beacon labs corp,beacon labs,8437 fifth avenue,germany,s2,S1_093
+S2_118,Beacon Health Holdings,1243 Fifth Ave,JPN,beacon health holdings,beacon health,1243 fifth avenue,japan,s2,S1_093
+S3_014,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s3,S1_093
+S3_083,Beacon Media Inc.,1423 Oak Rd,FR,beacon media inc,beacon media,1423 oak road,france,s3,S1_093
+S3_141,Beacon Energy Ltd,6797 Oak Rd,AUS,beacon energy ltd,beacon energy,6797 oak road,australia,s3,S1_093
+S2_043,Gamma Capital LLC,6965 Lincoln Way,AUS,gamma capital llc,gamma capital,6965 lincoln way,australia,s2,S1_094
+S2_049,Gamma Capital Corp,2849 Commercial Dr,FR,gamma capital corp,gamma capital,2849 commercial drive,france,s2,S1_094
+S3_045,Gamma Capital Ltd,6965 Lincoln Way,AUS,gamma capital ltd,gamma capital,6965 lincoln way,australia,s3,S1_094
+S2_038,Apex Health Corp,9424 Fifth Avenue,DE,apex health corp,apex health,9424 fifth avenue,germany,s2,S1_096
+S2_129,Apex Health Ltd,2629 Market St,DE,apex health ltd,apex health,2629 market street,germany,s2,S1_096
+S3_047,Apex Health Co,7757 Park Avenue,FR,apex health co,apex health,7757 park avenue,france,s3,S1_096
+S2_026,Solar Financial Co,9840 Main Street,FR,solar financial co,solar financial,9840 main street,france,s2,S1_097
+S2_036,Solar Solutions Ltd,6411 Commercial Dr,UK,solar solutions ltd,solar solutions,6411 commercial drive,united kingdom,s2,S1_097
+S2_051,Solar Tech Corp,9533 Pine St,DE,solar tech corp,solar tech,9533 pine street,germany,s2,S1_097
+S2_054,Solar Capital Inc.,5788 Lincoln Way,DE,solar capital inc,solar capital,5788 lincoln way,germany,s2,S1_097
+S2_083,Solar Energy Inc.,4166 Market St,FR,solar energy inc,solar energy,4166 market street,france,s2,S1_097
+S2_133,Solar Logistics LLC,4808 Broadway,AUS,solar logistics llc,solar logistics,4808 broadway,australia,s2,S1_097
+S3_022,Solar Labs Co,1098 Oak Road,USA,solar labs co,solar labs,1098 oak road,united states,s3,S1_097
+S3_023,Solar Financial Co,9840 Main Street,FR,solar financial co,solar financial,9840 main street,france,s3,S1_097
+S3_032,Solar Solutions Inc.,6411 Commercial Dr,UK,solar solutions inc,solar solutions,6411 commercial drive,united kingdom,s3,S1_097
+S3_085,Solar Solutions Group,5427 Pine St,FR,solar solutions group,solar solutions,5427 pine street,france,s3,S1_097
+S3_109,Solar Media Ltd,4575 Broadway,JPN,solar media ltd,solar media,4575 broadway,japan,s3,S1_097
+S3_119,Solar Systems Group,6943 Fifth Ave,USA,solar systems group,solar systems,6943 fifth avenue,united states,s3,S1_097
+S3_137,Solar Media Co,2571 Main St,DE,solar media co,solar media,2571 main street,germany,s3,S1_097
+S3_142,Solar Tech Holdings,5582 Market St,CA,solar tech holdings,solar tech,5582 market street,canada,s3,S1_097
+S3_106,Delta Retail Corp,5414 Commercial Dr,FR,delta retail corp,delta retail,5414 commercial drive,france,s3,S1_098
+S2_138,Delta Logistics Co,6367 Commercial Dr,AUS,delta logistics co,delta logistics,6367 commercial drive,australia,s2,S1_098
+S2_033,Delta Tech Group,6074 Main Street,CA,delta tech group,delta tech,6074 main street,canada,s2,S1_098
+S2_058,Delta Labs Co,4525 Commercial Dr,JPN,delta labs co,delta labs,4525 commercial drive,japan,s2,S1_098
+S3_055,Delta Capital LLC,6611 Lincoln Way,CA,delta capital llc,delta capital,6611 lincoln way,canada,s3,S1_098
+S2_127,Delta Solutions Co,5539 Market St,JPN,delta solutions co,delta solutions,5539 market street,japan,s2,S1_098
+S3_048,Delta Tech Holdings,6311 Oak Road,UK,delta tech holdings,delta tech,6311 oak road,united kingdom,s3,S1_098
+S3_027,Delta Capital Holdings,3000 Pine Street,USA,delta capital holdings,delta capital,3000 pine street,united states,s3,S1_098
+S3_071,Delta Capital Co,3462 Market St,JPN,delta capital co,delta capital,3462 market street,japan,s3,S1_098
+S3_127,Delta Energy LLC,2942 Commercial Dr,UK,delta energy llc,delta energy,2942 commercial drive,united kingdom,s3,S1_098
+S2_117,Delta Systems LLC,9920 Lincoln Way,AUS,delta systems llc,delta systems,9920 lincoln way,australia,s2,S1_098
+S3_103,Delta Ventures LLC,9378 Pine St,USA,delta ventures llc,delta ventures,9378 pine street,united states,s3,S1_098
+S3_043,Delta Labs Ltd,1152 Pine Street,DE,delta labs ltd,delta labs,1152 pine street,germany,s3,S1_098
+S2_094,Delta Logistics Inc.,2818 Fifth Ave,FR,delta logistics inc,delta logistics,2818 fifth avenue,france,s2,S1_098
+S3_084,Delta Logistics LLC,4605 Commercial Dr,AUS,delta logistics llc,delta logistics,4605 commercial drive,australia,s3,S1_098
+S3_091,Delta Group Ltd,1199 Market St,JPN,delta group ltd,delta,1199 market street,japan,s3,S1_098
+S3_097,Delta Group Ltd,3774 Market St,CA,delta group ltd,delta,3774 market street,canada,s3,S1_098
+S3_053,Delta Energy Holdings,7994 Fifth Ave,AUS,delta energy holdings,delta energy,7994 fifth avenue,australia,s3,S1_098
+S2_019,Delta Solutions Inc.,8789 Main Street,FR,delta solutions inc,delta solutions,8789 main street,france,s2,S1_098
+S2_089,Delta Solutions Inc.,2664 Main St,DE,delta solutions inc,delta solutions,2664 main street,germany,s2,S1_098
+S2_045,Beacon Systems Group,7006 Fifth Avenue,JPN,beacon systems group,beacon systems,7006 fifth avenue,japan,s2,S1_099
+S2_098,Beacon Systems Group,5380 Commercial Dr,CA,beacon systems group,beacon systems,5380 commercial drive,canada,s2,S1_099
+S2_020,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s2,S1_099
+S2_025,Beacon Ventures Inc.,2679 Main Street,FR,beacon ventures inc,beacon ventures,2679 main street,france,s2,S1_099
+S2_059,Beacon Solutions Holdings,8021 Washington Blvd,DE,beacon solutions holdings,beacon solutions,8021 washington boulevard,germany,s2,S1_099
+S2_115,Beacon Labs Corp,8437 Fifth Ave,DE,beacon labs corp,beacon labs,8437 fifth avenue,germany,s2,S1_099
+S2_118,Beacon Health Holdings,1243 Fifth Ave,JPN,beacon health holdings,beacon health,1243 fifth avenue,japan,s2,S1_099
+S3_014,Beacon Retail Inc.,5138 Broadway,USA,beacon retail inc,beacon retail,5138 broadway,united states,s3,S1_099
+S3_083,Beacon Media Inc.,1423 Oak Rd,FR,beacon media inc,beacon media,1423 oak road,france,s3,S1_099
+S3_141,Beacon Energy Ltd,6797 Oak Rd,AUS,beacon energy ltd,beacon energy,6797 oak road,australia,s3,S1_099

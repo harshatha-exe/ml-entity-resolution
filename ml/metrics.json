@@ -1,6 +1,6 @@
 {
-  "selected_model": "DecisionTree",
-  "threshold": 0.1,
+  "selected_model": "LogisticRegression",
+  "threshold": 0.22,
   "feature_names": [
     "name_sim",
     "addr_sim",
@@ -9,39 +9,39 @@
     "len_diff"
   ],
   "val_metrics": {
-    "accuracy": 0.9916666666666667,
-    "precision": 0.9523809523809523,
+    "accuracy": 0.9862068965517241,
+    "precision": 0.9047619047619048,
     "recall": 1.0,
-    "f1": 0.975609756097561,
-    "f0_5": 0.9615384615384616,
+    "f1": 0.95,
+    "f0_5": 0.9223300970873787,
     "confusion_matrix": [
       [
-        99,
-        1
+        124,
+        2
       ],
       [
         0,
-        20
+        19
       ]
     ]
   },
   "test_metrics": {
-    "accuracy": 0.99375,
-    "precision": 0.9523809523809523,
+    "accuracy": 1.0,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1": 0.975609756097561,
-    "f0_5": 0.9615384615384616,
+    "f1": 1.0,
+    "f0_5": 1.0,
     "confusion_matrix": [
       [
-        139,
-        1
+        222,
+        0
       ],
       [
         0,
-        20
+        19
       ]
     ],
-    "mean_per_s1_f0_5": 0.75,
-    "singleton_error_rate": 0.2
+    "mean_per_s1_f0_5": 0.7,
+    "singleton_error_rate": 0.0
   }
 }

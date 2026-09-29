@@ -4,9 +4,10 @@
 - **Provenance**: 100% Synthetic data generated for entity resolution benchmark testing.
 - **Record counts**:
   - `s1.csv`: 100 rows
-  - `s2.csv`: 58 rows
-  - `s3.csv`: 57 rows
-  - `links.csv`: 106 true match links
+  - `s2.csv`: 150 rows (Unique IDs)
+  - `s3.csv`: 150 rows (Unique IDs)
+  - Total candidate records (S2 + S3): 300
+  - `links.csv`: 90 true match links
 
 ## Demo S1 Entities
 - **Match Demo ID**: `S1_001` (`Acme Global Solutions`) - Has true links in S2 (`S2_001`) and S3 (`S3_001`).
