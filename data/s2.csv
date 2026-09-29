@@ -1,0 +1,59 @@
+entity_id,business_name,business_address,country
+S2_001,Acme Global Solutions Inc.,123 Innovation Way Ste 400,USA
+S2_002,Apex Logistics,789 Market St,UK
+S2_004,Starlite Retailers,12 Star Avenue,USA
+S2_006,Summit Health Systems,300 Doctors Drive Apartment 2B,USA
+S2_008,Pacific Financial,500 Wall St,USA
+S2_010,Horizon Media,22 Broad St,USA
+S2_011,Alpha Biotech LLC,80 Science Road,USA
+S2_008,Terra Logistics Co,4606 Broadway,UK
+S2_009,Omni Tech Group,1635 Broadway,UK
+S2_010,Terra Labs Group,6973 Broadway,DE
+S2_011,Nova Ventures Ltd,9991 Fifth Avenue,JPN
+S2_012,Beta Solutions Holdings,6025 Commercial Dr,UK
+S2_013,Echo Group LLC,1269 Commercial Dr,AUS
+S2_014,Gamma Group Holdings,9225 Broadway,AUS
+S2_015,Omni Retail LLC,2366 Lincoln Way,DE
+S2_016,Alpha Financial LLC,1390 Market Street,AUS
+S2_017,Terra Media Co,8935 Broadway,AUS
+S2_018,Gamma Systems Inc.,6218 Washington Boulevard,FR
+S2_019,Nova Tech LLC,9175 Broadway,FR
+S2_020,Beta Tech Group,5513 Market Street,FR
+S2_021,Beacon Industries Inc.,7844 Broadway,JPN
+S2_022,Beta Group Group,5904 Pine Street,DE
+S2_023,Beta Group Inc.,5904 Pine Street,DE
+S2_024,Omni Labs Ltd,1890 Broadway,UK
+S2_025,Delta Systems Ltd,7986 Broadway,JPN
+S2_026,Alpha Systems Corp,7554 Fifth Avenue,DE
+S2_027,Beacon Ventures Co,2679 Main Street,FR
+S2_028,Solar Industries Group,1443 Pine Street,AUS
+S2_029,Solar Capital Group,2300 Fifth Ave,USA
+S2_030,Terra Group Group,4425 Lincoln Way,DE
+S2_031,Gamma Health Inc.,7339 Lincoln Way,AUS
+S2_032,Beacon Labs Ltd,9038 Main Street,JPN
+S2_033,Beacon Labs Inc.,9038 Main Street,JPN
+S2_034,Gamma Retail Corp,753 Oak Road,UK
+S2_035,Terra Ventures Group,7811 Broadway,UK
+S2_036,Gamma Ventures Corp,4673 Oak Road,AUS
+S2_037,Delta Industries Ltd,726 Market Street,FR
+S2_038,Beacon Industries Corp,4273 Main Street,AUS
+S2_039,Echo Solutions Group,2880 Market Street,CA
+S2_040,Gamma Financial Ltd,3362 Park Avenue,USA
+S2_041,Omni Group Holdings,3285 Pine Street,DE
+S2_042,Beacon Media Co,7877 Washington Blvd,CA
+S2_043,Apex Energy LLC,3888 Pine St,AUS
+S2_044,Echo Ventures Corp,6481 Commercial Dr,AUS
+S2_045,Gamma Capital Ltd,6965 Lincoln Way,AUS
+S2_046,Gamma Capital Corp,6965 Lincoln Way,AUS
+S2_047,Omni Media Holdings,6471 Oak Road,AUS
+S2_048,Prime Health Inc.,8851 Main Street,DE
+S2_049,Zenith Systems Corp,7006 Fifth Avenue,JPN
+S2_050,Echo Group LLC,759 Main Street,UK
+S2_051,Terra Systems Inc.,3349 Market Street,FR
+S2_052,Beacon Industries LLC,4626 Lincoln Way,USA
+S2_053,Apex Systems Inc.,9196 Broadway,AUS
+S2_054,Apex Solutions Group,5864 Washington Boulevard,CA
+S2_055,Apex Solutions Group,4594 Main Street,USA
+S2_056,Atlas Tech Corp,4758 Washington Boulevard,DE
+S2_057,Atlas Media LLC,1170 Pine Street,DE
+S2_058,Atlas Media Holdings,1170 Pine Street,DE
