@@ -41,7 +41,20 @@
         19
       ]
     ],
-    "mean_per_s1_f0_5": 0.7,
-    "singleton_error_rate": 0.0
-  }
+    "counts": {
+      "total_test_s1": 20,
+      "total_linked_s1": 14,
+      "total_no_link_s1": 6,
+      "correct_abstentions": 6,
+      "false_matches": 0,
+      "correct_accepted_links": 14,
+      "missed_links": 0
+    },
+    "mean_per_s1_f0_5_linked": 1.0,
+    "linked_s1_denominator": 14,
+    "singleton_no_match_accuracy": 1.0,
+    "singleton_false_acceptance_rate": 0.0,
+    "singleton_no_link_denominator": 6
+  },
+  "notes": "Per-S1 F0.5 is calculated exclusively on S1 entities with at least 1 true positive link. No-match singletons are evaluated separately using no-match accuracy and false acceptance rate."
 }
